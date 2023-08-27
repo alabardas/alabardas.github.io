@@ -3,32 +3,50 @@ function makeTimer() {
     var now = new Date();
     var now = Date.parse(now) / 1000;
 
-    var day_28 = new Date(Date.UTC(2023, 7, 28, 4, 0, 0));
-    var day_28 = Date.parse(day_28) / 1000;
+    var day_28_B = new Date(Date.UTC(2023, 7, 28, 4, 0, 0));
+    var day_28_B = Date.parse(day_28_B) / 1000;
 
-    var day_2 = new Date(Date.UTC(2023, 8, 2, 4, 45, 0));
-    var day_2 = Date.parse(day_2) / 1000;
+    var day_28_E = new Date(Date.UTC(2023, 7, 28, 20, 10, 0));
+    var day_28_E = Date.parse(day_28_E) / 1000;
 
-    var day_3 = new Date(Date.UTC(2023, 8, 3, 4, 30, 0));
-    var day_3 = Date.parse(day_3) / 1000;
+    var day_2_B = new Date(Date.UTC(2023, 8, 2, 4, 45, 0));
+    var day_2_B = Date.parse(day_2_B) / 1000;
+
+    var day_2_E = new Date(Date.UTC(2023, 8, 2, 20, 50, 0));
+    var day_2_E = Date.parse(day_2_E) / 1000;
+
+    var day_3_B = new Date(Date.UTC(2023, 8, 3, 4, 30, 0));
+    var day_3_B = Date.parse(day_3_B) / 1000;
+
+    var day_3_E = new Date(Date.UTC(2023, 8, 3, 19, 30, 0));
+    var day_3_E = Date.parse(day_3_E) / 1000;
 
     var day_2024 = new Date(Date.UTC(2024, 7, 28, 4, 0, 0));
     var day_2024 = Date.parse(day_2024) / 1000;
 
     var name = ""
 
-    if (now > day_3) {
+    if (now > day_3_E) {
         endTime = day_2024
-        name = "&#160San Agustín 2024&#160"
-    } else if (now > day_2) {
-        endTime = day_3
-        name = "&#160el domingo 3 de sep&#160"
-    } else if (now > day_28) {
-        endTime = day_2
-        name = "&#160el sábado 2 de sep&#160"
+        name = "¡Nos vemos en San Agustín 2024! Aún quedan:"
+    } else if (now > day_3_B) {
+        endTime = day_3_E
+        name = "¡Las alabardas están en la calle! Les quedan:"
+    } else if (now > day_2_E) {
+        endTime = day_3_B
+        name = "Volvemos el domingo 3 de septiembre, quedan:"
+    } else if (now > day_2_B) {
+        endTime = day_2_E
+        name = "¡Las alabardas están en la calle! Les quedan:"
+    } else if (now > day_28_E) {
+        endTime = day_2_B
+        name = "Volvemos el sábado 2 de septiembre, quedan:"
+    } else if (now > day_28_B) {
+        endTime = day_28_E
+        name = "¡Las alabardas están celebrando San Agustín! Les quedan:"
     } else {
-        endTime = day_28
-        name = "&#160;San Agustín&#160"
+        endTime = day_28_B
+        name = "¡Ya casi es San Agustín!"
     }
 
     var timeLeft = endTime - now;

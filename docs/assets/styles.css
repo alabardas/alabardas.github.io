@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
 
-.pre-timer {
+#day_name {
     display: inline-block;
     line-height: 1;
     padding: 0;
