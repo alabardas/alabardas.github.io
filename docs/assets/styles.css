@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+
+#days,
+#hours,
+#minutes,
+#seconds {
+    display: inline-block;
+    line-height: 1;
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Covered By Your Grace', cursive;
+    padding-top: 0;
+}
+
+#days {
+    font-size: 150px;
+    color: #db4844;
+}
+
+#hours {
+    font-size: 110px;
+    color: #f07c22;
+}
+
+#minutes {
+    font-size: 90px;
+    color: #f6da74;
+}
+
+#seconds {
+    font-size: 50px;
+    color: #abcd58;
+}
+
+span {
+    display: block;
+    font-size: 20px;
+    color: #1779B1;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+body {
+    text-align: center;
+    color: #1779B1;
+    background: #f0f4f5;
+    font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, " Open Sans", " Helvetica Neue", sans-serif;
+}
+
+#virgen {
+    max-height: 200px;
+}
+
+.my-button {
+    background-image: linear-gradient(92.88deg, #5196BD 0%, #1779B1 50%, #5196BD 100%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: 600;
+    height: 4rem;
+    padding: 0 1rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.my-button:hover {
+    box-shadow: rgba(16, 85, 125, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+    .my-button {
+        padding: 0 2.6rem;
+    }
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, " Open Sans", " Helvetica Neue", sans-serif;
+}
+
+.tg th {
+    border-color: #5196BD;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 20px;
+    word-break: normal;
+}
+
+.tg td {
+    border-color: #5196BD;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 20px;
+    word-break: normal;
+}
+
+.tg .tg-p {
+    text-align: center;
+}
+
+.tg .tg-0 {
+    border: none !important;
+}
+
+.tg .tg-h1 {
+    background-color: #5196BD;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+footer {
+    font-weight: 300;
+    font-size: 12px;
+}
