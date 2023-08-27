@@ -53,7 +53,7 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 10px;
 }
 
@@ -86,6 +86,7 @@ body {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    margin-bottom: 30px;
 }
 
 .my-button:hover {
