@@ -1,5 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
 
+.pre-timer {
+    display: inline-block;
+    line-height: 1;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
 #days,
 #hours,
 #minutes,
@@ -13,22 +22,22 @@
 }
 
 #days {
-    font-size: 150px;
+    font-size: 110px;
     color: #db4844;
 }
 
 #hours {
-    font-size: 110px;
+    font-size: 90px;
     color: #f07c22;
 }
 
 #minutes {
-    font-size: 90px;
+    font-size: 80px;
     color: #f6da74;
 }
 
 #seconds {
-    font-size: 50px;
+    font-size: 60px;
     color: #abcd58;
 }
 
@@ -67,7 +76,7 @@ body {
     color: #FFFFFF;
     cursor: pointer;
     flex-shrink: 0;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     height: 4rem;
     padding: 0 1rem;
@@ -82,6 +91,40 @@ body {
 .my-button:hover {
     box-shadow: rgba(16, 85, 125, 0.5) 0 1px 30px;
     transition-duration: .1s;
+}
+
+.my-button {
+    animation: jello-horizontal .9s linear both
+}
+
+@keyframes jello-horizontal {
+    0% {
+        transform: scale3d(1, 1, 1)
+    }
+
+    30% {
+        transform: scale3d(1.25, .75, 1)
+    }
+
+    40% {
+        transform: scale3d(.75, 1.25, 1)
+    }
+
+    50% {
+        transform: scale3d(1.15, .85, 1)
+    }
+
+    65% {
+        transform: scale3d(.95, 1.05, 1)
+    }
+
+    75% {
+        transform: scale3d(1.05, .95, 1)
+    }
+
+    100% {
+        transform: scale3d(1, 1, 1)
+    }
 }
 
 @media (min-width: 768px) {
