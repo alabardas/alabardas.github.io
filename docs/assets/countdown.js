@@ -29,24 +29,31 @@ function makeTimer() {
     if (now > day_3_E) {
         endTime = day_2024
         name = "¡Nos vemos en San Agustín 2024! Aún quedan:"
+        document.getElementById("fireworks").remove();
     } else if (now > day_3_B) {
         endTime = day_3_E
         name = "¡Las alabardas están en la calle! Les quedan:"
+        document.getElementById("fireworks").style.display = "block";
     } else if (now > day_2_E) {
         endTime = day_3_B
         name = "Volvemos el domingo 3 de septiembre, quedan:"
+        document.getElementById("fireworks").remove();
     } else if (now > day_2_B) {
         endTime = day_2_E
         name = "¡Las alabardas están en la calle! Les quedan:"
+        document.getElementById("fireworks").style.display = "block";
     } else if (now > day_28_E) {
         endTime = day_2_B
         name = "Volvemos el sábado 2 de septiembre, quedan:"
+        document.getElementById("fireworks").remove();
     } else if (now > day_28_B) {
         endTime = day_28_E
         name = "¡Las alabardas están celebrando San Agustín! Les quedan:"
+        document.getElementById("fireworks").style.display = "block";
     } else {
         endTime = day_28_B
         name = "¡Ya casi es San Agustín!"
+        document.getElementById("fireworks").remove();
     }
 
     var timeLeft = endTime - now;
