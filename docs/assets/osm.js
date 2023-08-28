@@ -52,7 +52,7 @@ const points28M = [
     [39.68055, -3.97650, "06:40 - Recogida Junco"],
     [39.67902, -3.97405, "06:50 - Recogida Niño de la Bandera"],
     [39.67915, -3.97318, "07:00 - Desayuno Bastón"],
-    [39.67268, -3.97440, "08:15 - Salida Oficial"],
+    [39.67283, -3.97443, "08:15 - Salida Oficial"],
     [39.67693, -3.97068, "08:30 - Ermita del Cristo"],
     [39.67801, -3.97556, "09:00 - Plaza Majuelo"],
     [39.67924, -3.97824, "09:30 - Barrio del Cerrillo"],
@@ -60,13 +60,13 @@ const points28M = [
     [39.67858, -3.97097, "11:15 - Ermita de la Virgen"],
     [39.67747, -3.97244, "11:50 - Casa Parroquial"],
     [39.67552, -3.97546, "12:10 - Plaza Juan Carlos I"],
-    [39.67752, -3.97047, "12:30 - Casa de la Alcaldesa"],
+    [39.67723, -3.97068, "12:30 - Casa de la Alcaldesa"],
     [39.67754, -3.98055, "13:45 - Casa del Administrador"],
-    [39.67263, -3.97431, "15:15 - Regreso"],
+    [39.67269, -3.97425, "15:15 - Regreso"],
 ];
 
 const points28T = [
-    [39.67268, -3.97440, "17:00 - Salida Oficial"],
+    [39.67283, -3.97443, "17:00 - Salida Oficial"],
     [39.67577, -3.97894, "17:10 - Plaza Malpica"],
     [39.67316, -3.98299, "17:25 - Cementerio"],
     [39.67184, -3.97892, "17:55 - Plaza del Oteruelo"],
@@ -74,7 +74,7 @@ const points28T = [
     [39.6743, -3.97217, "19:55 - Plaza del Pozobueno"],
     [39.67654, -3.96836, "20:15 - Glorieta de Jesús Nazareno"],
     [39.67920, -3.97325, "20:40 - Bastón"],
-    [39.67263, -3.97431, "22:10 - Regreso"],
+    [39.67269, -3.97425, "22:10 - Regreso"],
 ];
 
 const points2M = [
@@ -83,23 +83,23 @@ const points2M = [
     [39.67920, -3.97325, "07:25 - Recogida Bastón"],
     [39.67902, -3.97405, "07:30 - Recogida Niño de la Bandera"],
     [39.66983, -3.97593, "07:55 - Desayuno Junco"],
-    [39.67268, -3.97440, "08:45 - Salida Oficial"],
+    [39.67283, -3.97443, "08:45 - Salida Oficial"],
     [39.67693, -3.97068, "09:00 - Ermita del Cristo"],
     [39.67858, -3.97097, "09:20 - Ermita de la Virgen"],
     [39.67801, -3.97556, "09:40 - Plaza Majuelo"],
     [39.68582, -3.97582, "10:00 - Arriera"],
     [39.67243, -3.97446, "11:50 - 4ª de la Virgen"],
     [39.67247, -3.96911, "13:30 - Ayudante"],
-    [39.67263, -3.97431, "15:00 - Regreso"],
+    [39.67269, -3.97425, "15:00 - Regreso"],
 ];
 
 const points2T = [
-    [39.67268, -3.97440, "16:15 - Salida Oficial"],
+    [39.67283, -3.97443, "16:15 - Salida Oficial"],
     [39.67602, -3.99056, "16:40 - Residencia de Mayores"],
     [39.67849, -3.97765, "18:00 - Hortelana"],
     [39.67525, -3.97447, "19:40 - 3ª de la Virgen"],
     [39.67086, -3.97294, "21:20 - 1ª Dama"],
-    [39.67263, -3.97431, "22:50 - Regreso"],
+    [39.67269, -3.97425, "22:50 - Regreso"],
 ];
 
 const points3M = [
@@ -108,24 +108,24 @@ const points3M = [
     [39.67920, -3.97325, "06:55 - Recogida Bastón"],
     [39.67902, -3.97405, "07:00 - Recogida Niño de la Bandera"],
     [39.66987, -3.97597, "07:30 - Desayuno Junco"],
-    [39.67268, -3.97440, "08:20 - Salida Oficial"],
+    [39.67283, -3.97443, "08:20 - Salida Oficial"],
     [39.67693, -3.97068, "08:35 - Ermita del Cristo"],
     [39.67858, -3.97097, "08:55 - Ermita de la Virgen"],
     [39.67801, -3.97556, "09:30 - Plaza Majuelo"],
     [39.6799, -3.98388, "10:00 - 1ª de la Virgen"],
     [39.67632, -3.97357, "12:00 - Misa en la Iglesia Parroquial"],
     [39.67910, -3.97410, "13:30 - Niño de la Bandera"],
-    [39.67263, -3.97431, "22:50 - Regreso"],
+    [39.67269, -3.97425, "22:50 - Regreso"],
 ];
 
 const points3T = [
-    [39.67268, -3.97440, "16:15 - Salida Oficial"],
+    [39.67283, -3.97443, "16:15 - Salida Oficial"],
     [39.66974, -3.97587, "17:10 - Labradora"],
     [39.67388, -3.96889, "18:55 - Reina"],
     [39.67159, -3.97906, "Traslado en bus"],
     [39.67471, -3.99975, "20:45 - 1ª del Junco"],
     [39.67148, -3.97896, "Regreso en bus"],
-    [39.67263, -3.97431, "21:30 - Regreso"],
+    [39.67269, -3.97425, "21:30 - Regreso"],
 ];
 
 // Map config
@@ -165,7 +165,7 @@ const allMarkers = new L.FeatureGroup();
         L.latLng(39.68055, -3.97650, "06:40 - Recogida Junco"),
         L.latLng(39.67902, -3.97405, "06:50 - Recogida Niño de la Bandera"),
         L.latLng(39.67920, -3.97325, "07:00 - Desayuno Bastón"),
-        L.latLng(39.67263, -3.97431, "08:15 - Salida Oficial"),
+        L.latLng(39.67269, -3.97425, "08:15 - Salida Oficial"),
         L.latLng(39.67693, -3.97068, "08:30 - Ermita del Cristo"),
         L.latLng(39.67801, -3.97556, "09:00 - Plaza Majuelo"),
         L.latLng(39.67924, -3.97824, "09:30 - Barrio del Cerrillo"),
