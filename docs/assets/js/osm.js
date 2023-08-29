@@ -35,7 +35,7 @@ const points2M = [
     [39.68055, -3.97650, "07:15 - Recogida Junco"],
     [39.67920, -3.97325, "07:25 - Recogida Bastón"],
     [39.67902, -3.97405, "07:30 - Recogida Niño de la Bandera"],
-    [39.66983, -3.97593, "07:55 - Desayuno Junco"],
+    [39.66986, -3.97609, "07:55 - Desayuno Junco"],
     [39.67283, -3.97443, "08:45 - Salida Oficial"],
     [39.67693, -3.97068, "09:00 - Ermita del Cristo"],
     [39.67858, -3.97097, "09:20 - Ermita de la Virgen"],
@@ -56,19 +56,19 @@ const points2T = [
 ];
 
 const points3M = [
-    [39.67525, -3.97447, "06:30 - Recogida 1ª, 2ª, 3ª y 4ª de la Virgen"],
+    [39.67522, -3.97441, "06:30 - Recogida 1ª, 2ª, 3ª y 4ª de la Virgen"],
     [39.68055, -3.97650, "06:45 - Recogida Junco"],
     [39.67920, -3.97325, "06:55 - Recogida Bastón"],
     [39.67902, -3.97405, "07:00 - Recogida Niño de la Bandera"],
     [39.66987, -3.97597, "07:30 - Desayuno Junco"],
-    [39.67283, -3.97443, "08:20 - Salida Oficial"],
+    [39.67269, -3.97425, "08:20 - Salida Oficial"],
     [39.67693, -3.97068, "08:35 - Ermita del Cristo"],
     [39.67858, -3.97097, "08:55 - Ermita de la Virgen"],
     [39.67801, -3.97556, "09:30 - Plaza Majuelo"],
     [39.67990, -3.98388, "10:00 - 1ª de la Virgen"],
     [39.67632, -3.97357, "12:00 - Misa en la Iglesia Parroquial"],
-    [39.67910, -3.97410, "13:30 - Niño de la Bandera"],
-    [39.67269, -3.97425, "22:50 - Regreso"],
+    [39.67887, -3.97383, "13:30 - Niño de la Bandera"],
+    [39.67283, -3.97443, "22:50 - Regreso"],
 ];
 
 const points3T = [
