@@ -1,50 +1,3 @@
-var greenIcon = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
-
-var goldIcon = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-gold.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
-
-var redIcon = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
-
-
-var violetIcon = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
-
-
-var greyIcon = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-grey.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
-
 // coordinate array with popup text
 const points28M = [
     [39.67243, -3.97446, "06:00 - Recogida 1ª, 2ª, 3ª y 4ª de la Virgen"],
@@ -128,6 +81,16 @@ const points3T = [
     [39.67269, -3.97425, "21:30 - Regreso"],
 ];
 
+const points7 = [
+    [39.67283, -3.97443, "17:20 - Salida Oficial"],
+    [39.67853, -3.97123, "18:00 - Eucaristía con Vísperas"],
+    [39.67274, -3.97433, "19:30 - Alférez"],
+    [39.67790, -3.96973, "21:30 - Pregón"],
+    [39.67858, -3.97094, "23:30 - Salve"],
+    [39.68151, -3.97019, "00:00 - Pólvora"],
+    [39.67265, -3.97422, "01:00 - Regreso"],
+];
+
 // Map config
 let config = {
     minZoom: 7,
@@ -152,6 +115,7 @@ const p2M = new L.FeatureGroup();
 const p2T = new L.FeatureGroup();
 const p3M = new L.FeatureGroup();
 const p3T = new L.FeatureGroup();
+const p7 = new L.FeatureGroup();
 const allMarkers = new L.FeatureGroup();
 
 /*route = L.Routing.control({
@@ -345,6 +309,34 @@ for (let i = 0; i < points3T.length - 1; i++) {
     p3T.addLayer(firstpolyline);
 }
 
+// adding markers to the layer points7
+for (let i = 0; i < points7.length; i++) {
+    marker = L.marker([points7[i][0], points7[i][1]], {
+        icon: new L.Icon({
+            iconUrl: 'https://marker.nanoka.fr/map_pin-F0750B-FFF-BD5D09-' + (i + 1) + '-40.svg',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        })
+    }).bindPopup(points7[i][2]);
+    p7.addLayer(marker);
+}
+
+for (let i = 0; i < points7.length - 1; i++) {
+    var pointA = new L.LatLng(points7[i][0], points7[i][1]);
+    var pointB = new L.LatLng(points7[i + 1][0], points7[i + 1][1]);
+
+    var firstpolyline = new L.Polyline([pointA, pointB], {
+        color: '#BD5D09',
+        weight: 3,
+        opacity: 0.5,
+        smoothFactor: 1
+    });
+    p7.addLayer(firstpolyline);
+}
+
 // object with layers
 const overlayMaps = {
     "28/8 Mañana": p28M,
@@ -353,6 +345,7 @@ const overlayMaps = {
     "2/9 Tarde": p2T,
     "3/9 Mañana": p3M,
     "3/9 Tarde": p3T,
+    "7/9 Tarde": p7,
 };
 
 // centering a group of markers
@@ -387,3 +380,4 @@ legend[2].parentElement.style.color = '#31882A';
 legend[3].parentElement.style.color = '#982E40';
 legend[4].parentElement.style.color = '#742E98';
 legend[5].parentElement.style.color = '#6B6B6B';
+legend[6].parentElement.style.color = '#BD5D09';

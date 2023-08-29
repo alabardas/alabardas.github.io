@@ -21,14 +21,28 @@ function getDay() {
     var day_3_E = new Date(Date.UTC(2023, 8, 3, 19, 30, 0));
     var day_3_E = Date.parse(day_3_E) / 1000;
 
+    var day_7_B = new Date(Date.UTC(2023, 8, 7, 15, 10, 0));
+    var day_7_B = Date.parse(day_3_B) / 1000;
+
+    var day_7_E = new Date(Date.UTC(2023, 8, 7, 23, 0, 0));
+    var day_7_E = Date.parse(day_3_E) / 1000;
+
     var day_2024 = new Date(Date.UTC(2024, 7, 28, 4, 0, 0));
     var day_2024 = Date.parse(day_2024) / 1000;
 
     var name = ""
 
-    if (now > day_3_E) {
+    if (now > day_7_E) {
         endTime = day_2024
         name = "¡Nos vemos en San Agustín 2024! Aún quedan:"
+        document.getElementById("fireworks").remove();
+    } else if (now > day_7_B) {
+        endTime = day_7_E
+        name = "¡Es la víspera del día de la Virgen! A las alabardas les quedan en la calle:"
+        document.getElementById("fireworks").style.display = "block";
+    } else if (now > day_3_E) {
+        endTime = day_7_B
+        name = "¡Nos vemos para los días grandes! Aún quedan:"
         document.getElementById("fireworks").remove();
     } else if (now > day_3_B) {
         endTime = day_3_E
