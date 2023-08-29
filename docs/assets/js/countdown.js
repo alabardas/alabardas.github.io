@@ -1,4 +1,4 @@
-function makeTimer() {
+function getDay() {
 
     var now = new Date();
     var now = Date.parse(now) / 1000;
@@ -56,7 +56,17 @@ function makeTimer() {
         document.getElementById("fireworks").remove();
     }
 
-    var timeLeft = endTime - now;
+    document.getElementById("day_name").innerHTML = name;
+
+    return endTime
+}
+
+function makeTimer(endTime) {
+
+    var now = new Date();
+    var now = Date.parse(now) / 1000;
+
+    var timeLeft = endTime - now
 
     var days = Math.floor(timeLeft / 86400);
     var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
@@ -71,8 +81,8 @@ function makeTimer() {
     document.getElementById("hours").innerHTML = hours + "<span>Horas</span>";
     document.getElementById("minutes").innerHTML = minutes + "<span>Minutos</span>";
     document.getElementById("seconds").innerHTML = seconds + "<span>Segundos</span>";
-    document.getElementById("day_name").innerHTML = name;
 
 }
 
-setInterval(function () { makeTimer(); }, 1000);
+var endTime = getDay()
+setInterval(function () { makeTimer(endTime); }, 1000);
