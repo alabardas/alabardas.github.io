@@ -27,14 +27,42 @@ function getDay() {
     var day_7_E = new Date(Date.UTC(2023, 8, 7, 23, 0, 0));
     var day_7_E = Date.parse(day_3_E) / 1000;
 
+    var day_8_B = new Date(Date.UTC(2023, 8, 8, 8, 45, 0));
+    var day_8_B = Date.parse(day_3_B) / 1000;
+
+    var day_8_E = new Date(Date.UTC(2023, 8, 8, 13, 30, 0));
+    var day_8_E = Date.parse(day_3_E) / 1000;
+
+    var day_16_B = new Date(Date.UTC(2023, 8, 16, 8, 20, 0));
+    var day_16_B = Date.parse(day_3_B) / 1000;
+
+    var day_16_E = new Date(Date.UTC(2023, 8, 17, 0, 30, 0));
+    var day_16_E = Date.parse(day_3_E) / 1000;
+
     var day_2024 = new Date(Date.UTC(2024, 7, 28, 4, 0, 0));
     var day_2024 = Date.parse(day_2024) / 1000;
 
     var name = ""
 
-    if (now > day_7_E) {
+    if (now > day_16_E) {
         endTime = day_2024
         name = "¡Nos vemos en San Agustín 2024! Aún quedan:"
+        document.getElementById("fireworks").remove();
+    } else if (now > day_16_B) {
+        endTime = day_16_E
+        name = "¡Es el día de la octava! Último día con las alabardas en la calle:"
+        document.getElementById("fireworks").style.display = "block";
+    } else if (now > day_8_E) {
+        endTime = day_16_B
+        name = "¡Nos vemos el día de la octava! Quedan:"
+        document.getElementById("fireworks").remove();
+    } else if (now > day_8_B) {
+        endTime = day_8_E
+        name = "¡Hoy es el día de la Virgen! Las alabardas estarán en la calle hasta dentro de:"
+        document.getElementById("fireworks").style.display = "block";
+    } else if (now > day_7_E) {
+        endTime = day_8_B
+        name = "Sólo quedan unas horas para los actos del día grande:"
         document.getElementById("fireworks").remove();
     } else if (now > day_7_B) {
         endTime = day_7_E
