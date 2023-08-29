@@ -83,6 +83,7 @@ const points3T = [
 
 const points7 = [
     [39.67283, -3.97443, "17:20 - Salida Oficial"],
+    [39.67579, -3.97511, "17:35 - Recogida de Autoridades"],
     [39.67853, -3.97123, "18:00 - Eucaristía con Vísperas"],
     [39.67274, -3.97433, "19:30 - Alférez"],
     [39.67790, -3.96973, "21:30 - Pregón"],
