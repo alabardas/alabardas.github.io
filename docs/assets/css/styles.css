@@ -1,4 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+@font-face {
+    font-display: swap;
+    font-family: 'Covered By Your Grace';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/covered-by-your-grace.woff2') format('woff2');
+}
 
 #day_name {
     display: inline-block;
