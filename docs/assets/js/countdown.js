@@ -118,7 +118,8 @@ function makeTimer(endTime) {
     if (hours < "10") { hours = "0" + hours; }
     if (minutes < "10") { minutes = "0" + minutes; }
     if (seconds < "10") { seconds = "0" + seconds; }
-
+    
+    document.getElementsByClassName("loader")[0].style.display = "none";
     document.getElementById("days").innerHTML = days + "<span>Días</span>";
     document.getElementById("hours").innerHTML = hours + "<span>Horas</span>";
     document.getElementById("minutes").innerHTML = minutes + "<span>Minutos</span>";
