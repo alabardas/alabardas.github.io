@@ -44,7 +44,9 @@ const points2M = [
     [39.67243, -3.97446, "11:50 - 4ª de la Virgen"],
     [39.67571, -3.97586, "12:15 - Convite 4ª de la Virgen"],
     [39.67247, -3.96911, "13:45 - Ayudante"],
-    [39.67269, -3.97425, "15:30 - Regreso"],
+    [39.67269, -3.97425, "14:30 - Salida en bus"],
+    [39.67363, -3.9946, "15:00 - Convite Ayudante"],
+    [39.67264, -3.97418, "15:30 - Recogida"],
 ];
 
 const points2T = [
