@@ -31,7 +31,7 @@ const points28T = [
 ];
 
 const points2M = [
-    [39.67634, -3.99198, "06:45 - Recogida 1ª, 2ª, 3ª y 4ª de la Virgen"],
+    [39.67693, -3.99180, "06:45 - Recogida 1ª, 2ª, 3ª y 4ª de la Virgen"],
     [39.68055, -3.97650, "07:15 - Recogida Junco"],
     [39.67920, -3.97325, "07:25 - Recogida Bastón"],
     [39.67902, -3.97405, "07:30 - Recogida Niño de la Bandera"],
@@ -45,13 +45,13 @@ const points2M = [
     [39.67571, -3.97586, "12:15 - Convite 4ª de la Virgen"],
     [39.67247, -3.96911, "13:45 - Ayudante"],
     [39.67269, -3.97425, "14:30 - Salida en bus"],
-    [39.67363, -3.9946, "15:00 - Convite Ayudante"],
+    [39.67363, -3.99460, "15:00 - Convite Ayudante"],
     [39.67264, -3.97418, "15:30 - Recogida"],
 ];
 
 const points2T = [
-    [39.67283, -3.97443, "16:15 - Salida Oficial"],
-    [39.67602, -3.99056, "16:40 - Residencia de Mayores"],
+    [39.67283, -3.97443, "16:45 - Salida Oficial"],
+    [39.67602, -3.99056, "17:00 - Residencia de Mayores"],
     [39.67849, -3.97765, "18:00 - Hortelana"],
     [39.67525, -3.97447, "19:40 - 3ª de la Virgen"],
     [39.67086, -3.97294, "21:20 - 1ª Dama"],
