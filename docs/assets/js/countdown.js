@@ -22,28 +22,28 @@ function getDay() {
     var day_3_E = Date.parse(day_3_E) / 1000;
 
     var day_7_B = new Date(Date.UTC(2023, 8, 7, 15, 10, 0));
-    var day_7_B = Date.parse(day_3_B) / 1000;
+    var day_7_B = Date.parse(day_7_B) / 1000;
 
     var day_7_E = new Date(Date.UTC(2023, 8, 7, 23, 0, 0));
-    var day_7_E = Date.parse(day_3_E) / 1000;
+    var day_7_E = Date.parse(day_7_E) / 1000;
 
     var day_8_B = new Date(Date.UTC(2023, 8, 8, 8, 45, 0));
-    var day_8_B = Date.parse(day_3_B) / 1000;
+    var day_8_B = Date.parse(day_8_B) / 1000;
 
     var day_8_E = new Date(Date.UTC(2023, 8, 8, 13, 30, 0));
-    var day_8_E = Date.parse(day_3_E) / 1000;
+    var day_8_E = Date.parse(day_8_E) / 1000;
 
     var day_16_B = new Date(Date.UTC(2023, 8, 16, 15, 0, 0));
-    var day_16_B = Date.parse(day_3_B) / 1000;
+    var day_16_B = Date.parse(day_16_B) / 1000;
 
     var day_16_E = new Date(Date.UTC(2023, 8, 16, 16, 0, 0));
-    var day_16_E = Date.parse(day_3_E) / 1000;
+    var day_16_E = Date.parse(day_16_E) / 1000;
 
     var day_17_B = new Date(Date.UTC(2023, 8, 16, 8, 20, 0));
-    var day_17_B = Date.parse(day_3_B) / 1000;
+    var day_17_B = Date.parse(day_17_B) / 1000;
 
     var day_17_E = new Date(Date.UTC(2023, 8, 17, 0, 30, 0));
-    var day_17_E = Date.parse(day_3_E) / 1000;
+    var day_17_E = Date.parse(day_17_E) / 1000;
 
     var day_2024 = new Date(Date.UTC(2024, 7, 28, 4, 0, 0));
     var day_2024 = Date.parse(day_2024) / 1000;
@@ -84,6 +84,7 @@ function getDay() {
         document.getElementById("fireworks").style.display = "block";
     } else if (now > day_3_E) {
         endTime = day_7_B
+        console.log(endTime)
         name = "¡Nos vemos para los días grandes! Aún quedan:"
         document.getElementById("fireworks").remove();
     } else if (now > day_3_B) {
