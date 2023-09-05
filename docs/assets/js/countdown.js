@@ -33,28 +33,42 @@ function getDay() {
     var day_8_E = new Date(Date.UTC(2023, 8, 8, 13, 30, 0));
     var day_8_E = Date.parse(day_3_E) / 1000;
 
-    var day_16_B = new Date(Date.UTC(2023, 8, 16, 8, 20, 0));
+    var day_16_B = new Date(Date.UTC(2023, 8, 16, 15, 0, 0));
     var day_16_B = Date.parse(day_3_B) / 1000;
 
-    var day_16_E = new Date(Date.UTC(2023, 8, 17, 0, 30, 0));
+    var day_16_E = new Date(Date.UTC(2023, 8, 16, 16, 0, 0));
     var day_16_E = Date.parse(day_3_E) / 1000;
+
+    var day_17_B = new Date(Date.UTC(2023, 8, 16, 8, 20, 0));
+    var day_17_B = Date.parse(day_3_B) / 1000;
+
+    var day_17_E = new Date(Date.UTC(2023, 8, 17, 0, 30, 0));
+    var day_17_E = Date.parse(day_3_E) / 1000;
 
     var day_2024 = new Date(Date.UTC(2024, 7, 28, 4, 0, 0));
     var day_2024 = Date.parse(day_2024) / 1000;
 
     var name = ""
 
-    if (now > day_16_E) {
+    if (now > day_17_E) {
         endTime = day_2024
         name = "¡Nos vemos en San Agustín 2024! Aún quedan:"
         document.getElementById("fireworks").remove();
+    } else if (now > day_17_B) {
+        endTime = day_17_E
+        name = "¡Es el día de la octava! Último día con las alabardas en la calle:"
+        document.getElementById("fireworks").style.display = "block";
+    } else if (now > day_16_E) {
+        endTime = day_17_B
+        name = "¡Nos vemos el día de la octava! Quedan:"
+        document.getElementById("fireworks").remove();
     } else if (now > day_16_B) {
         endTime = day_16_E
-        name = "¡Es el día de la octava! Último día con las alabardas en la calle:"
+        name = "¡Hoy queda un baile de bandera más!:"
         document.getElementById("fireworks").style.display = "block";
     } else if (now > day_8_E) {
         endTime = day_16_B
-        name = "¡Nos vemos el día de la octava! Quedan:"
+        name = "¡Nos vemos la víspera de la octava! Quedan:"
         document.getElementById("fireworks").remove();
     } else if (now > day_8_B) {
         endTime = day_8_E

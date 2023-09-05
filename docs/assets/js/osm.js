@@ -71,18 +71,22 @@ const points3M = [
     [39.67801, -3.97556, "09:30 - Plaza Majuelo"],
     [39.67990, -3.98388, "10:00 - 1ª de la Virgen"],
     [39.67632, -3.97357, "12:00 - Misa en la Iglesia Parroquial"],
-    [39.67887, -3.97383, "13:30 - Niño de la Bandera"],
-    [39.67283, -3.97443, "22:50 - Regreso"],
+    [39.67571, -3.97586, "13:30 - Convite Niño de la Bandera"],
+    [39.67283, -3.97443, "15:30 - Regreso"],
 ];
 
 const points3T = [
-    [39.67283, -3.97443, "16:15 - Salida Oficial"],
+    [39.67283, -3.97443, "17:00 - Salida Oficial"],
     [39.66974, -3.97587, "17:10 - Labradora"],
+    [39.67023, -3.97612, "17:30 - Salida en bus"],
+    [39.67972, -3.98558, "17:40 - Convite Labradora"],
+    [39.67037, -3.97630, "18:40 - Regreso en bus"],
     [39.67388, -3.96889, "18:55 - Reina"],
-    [39.67159, -3.97906, "Traslado en bus"],
-    [39.67452, -4.00312, "20:45 - 1ª del Junco"],
-    [39.67148, -3.97896, "Regreso en bus"],
-    [39.67269, -3.97425, "21:30 - Regreso"],
+    [39.67342, -3.96846, "20:50 - Salida en bus"],
+    [39.67452, -4.00312, "21:10 - 1ª del Junco"],
+    [39.67280, -3.97489, "21:40 - Regreso en bus"],
+    [39.67269, -3.97425, "22:00 - Regreso"],
+    [39.67612, -3.96108, "22:30 - Convite 1ª del Junco"],
 ];
 
 const points7 = [
@@ -98,9 +102,8 @@ const points7 = [
 ];
 
 const points8 = [
-    [39.67658, -3.97453, "08:45 - Salida con Banda de Música"],
-    [39.67902, -3.97405, "09:00 - Desayuno Niño de la Bandera"],
-    [39.67283, -3.97443, "10:00 - Salida Oficial"],
+    [39.67283, -3.97443, "08:30 - Salida Oficial con Banda de Música"],
+    [39.67902, -3.97405, "08:45 - Desayuno y Baile Niño de la Bandera"],
     [39.67579, -3.97511, "10:10 - Recogida de Autoridades"],
     [39.67747, -3.97244, "10:15 - Recogida de Patronato"],
     [39.67853, -3.97123, "10:30 - Eucaristía"],
@@ -109,7 +112,13 @@ const points8 = [
     [39.67858, -3.97094, "20:30 - Novena y Procesión"],
 ];
 
-const points16M = [
+const points16 = [
+    [39.67283, -3.97443, "Hora desconocida - Salida Oficial"],
+    [39.67388, -3.96889, "Hora desconocida - Baile de la Bandera Reina"],
+    [39.67274, -3.97433, "Hora desconocida - Regreso"],
+];
+
+const points17M = [
     [39.67658, -3.97453, "10:20 - Salida con Banda de Música"],
     [39.67902, -3.97405, "10:30 - Desayuno Niño de la Bandera"],
     [39.67283, -3.97443, "11:30 - Salida Oficial"],
@@ -119,7 +128,7 @@ const points16M = [
     [39.67860, -3.97082, "13:00 - Rifa del grano"],
 ];
 
-const points16T = [
+const points17T = [
     [39.67858, -3.97094, "19:30 - Novena y Procesión"],
     [39.67853, -3.97111, "22:30 - Rifa de la bandera"],
     [39.67847, -3.97110, "00:00 - Bailes de bandera de antiguos Alféreces"],
@@ -154,8 +163,9 @@ const p3M = new L.FeatureGroup();
 const p3T = new L.FeatureGroup();
 const p7 = new L.FeatureGroup();
 const p8 = new L.FeatureGroup();
-const p16M = new L.FeatureGroup();
-const p16T = new L.FeatureGroup();
+const p16 = new L.FeatureGroup();
+const p17M = new L.FeatureGroup();
+const p17T = new L.FeatureGroup();
 const allMarkers = new L.FeatureGroup();
 
 // adding markers to the layer points28M
@@ -177,16 +187,19 @@ create_group(points3M, p3M, '9C2BCB', '742E98', 'FFF')
 create_group(points3T, p3T, '7B7B7B', '6B6B6B', 'FFF')
 
 // adding markers to the layer points7
-create_group(points7, p7, 'FFFFFF', '000000', '000000')
+create_group(points7, p7, 'FFFFFF', '000', '000')
 
 // adding markers to the layer points8
 create_group(points8, p8, '00BCD4', '007887', 'FFF')
 
-// adding markers to the layer points16M
-create_group(points16M, p16M, 'C26224', '753B15', 'FFF')
+// adding markers to the layer points16
+create_group(points16, p16, 'F0EEAC', 'D9CF91', '000')
 
-// adding markers to the layer points16T
-create_group(points16T, p16T, 'f9191A', 'AC1112', 'FFF')
+// adding markers to the layer points17M
+create_group(points17M, p17M, 'C26224', '753B15', 'FFF')
+
+// adding markers to the layer points17T
+create_group(points17T, p17T, 'f9191A', 'AC1112', 'FFF')
 
 // object with layers
 const overlayMaps = {
@@ -198,8 +211,9 @@ const overlayMaps = {
     "3/9 Tarde": p3T,
     "7/9 Tarde": p7,
     "8/9 Mañana": p8,
-    "16/9 Mañana": p16M,
-    "16/9 Tarde": p16T,
+    "16/9 Tarde": p16,
+    "17/9 Mañana": p17M,
+    "17/9 Tarde": p17T,
 };
 
 // centering a group of markers
