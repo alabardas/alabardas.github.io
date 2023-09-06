@@ -21,13 +21,13 @@ function getDay() {
     var day_3_E = new Date(Date.UTC(2023, 8, 3, 19, 30, 0));
     var day_3_E = Date.parse(day_3_E) / 1000;
 
-    var day_7_B = new Date(Date.UTC(2023, 8, 7, 15, 10, 0));
+    var day_7_B = new Date(Date.UTC(2023, 8, 7, 15, 20, 0));
     var day_7_B = Date.parse(day_7_B) / 1000;
 
     var day_7_E = new Date(Date.UTC(2023, 8, 7, 23, 0, 0));
     var day_7_E = Date.parse(day_7_E) / 1000;
 
-    var day_8_B = new Date(Date.UTC(2023, 8, 8, 8, 45, 0));
+    var day_8_B = new Date(Date.UTC(2023, 8, 8, 6, 30, 0));
     var day_8_B = Date.parse(day_8_B) / 1000;
 
     var day_8_E = new Date(Date.UTC(2023, 8, 8, 13, 30, 0));
