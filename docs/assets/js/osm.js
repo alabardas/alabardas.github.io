@@ -113,9 +113,9 @@ const points8 = [
 ];
 
 const points16 = [
-    [39.67283, -3.97443, "Hora desconocida - Salida Oficial"],
-    [39.67388, -3.96889, "Hora desconocida - Baile de la Bandera Reina"],
-    [39.67274, -3.97433, "Hora desconocida - Regreso"],
+    [39.67850, -3.97100, "18:20 - Salida Oficial"],
+    [39.67388, -3.96889, "18:30 - Baile de la Bandera Reina"],
+    [39.67274, -3.97433, "19:00 - Regreso"],
 ];
 
 const points17M = [
