@@ -81,7 +81,7 @@ const points3T = [
     [39.67023, -3.97612, "17:30 - Salida en bus"],
     [39.67972, -3.98558, "17:40 - Convite Labradora"],
     [39.67037, -3.97630, "18:40 - Regreso en bus"],
-    [39.67388, -3.96889, "18:55 - Reina"],
+    [39.67421, -3.96959, "18:55 - Reina"],
     [39.67342, -3.96846, "20:50 - Salida en bus"],
     [39.67452, -4.00312, "21:10 - 1ª del Junco"],
     [39.67280, -3.97489, "21:40 - Regreso en bus"],
@@ -114,7 +114,7 @@ const points8 = [
 
 const points16 = [
     [39.67850, -3.97100, "18:20 - Salida Oficial"],
-    [39.67388, -3.96889, "18:30 - Baile de la Bandera Reina"],
+    [39.67421, -3.96959, "18:30 - Baile de la Bandera Reina"],
     [39.67274, -3.97433, "19:00 - Regreso"],
 ];
 
