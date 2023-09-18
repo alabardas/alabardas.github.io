@@ -130,11 +130,11 @@ const points17M = [
 
 const points17T = [
     [39.67858, -3.97094, "19:30 - Novena y Procesión"],
-    [39.67853, -3.97111, "22:30 - Rifa de la bandera"],
-    [39.67847, -3.97110, "00:00 - Bailes de bandera de antiguos Alféreces"],
-    [39.67858, -3.97055, "01:00 - Traca final de Feria"],
-    [39.67879, -3.97042, "01:15 - Nuevo niño de la bandera (Dirección desconocida)"],
-    [39.67265, -3.97422, "02:30 - Regreso"]
+    [39.67853, -3.97111, "22:05 - Rifa de la bandera"],
+    [39.67847, -3.97110, "23:00 - Bailes de bandera de antiguos Alféreces"],
+    [39.67858, -3.97055, "23:40 - Traca final de Feria"],
+    [39.67915, -3.97318, "00:00 - Nueva niña de la bandera"],
+    [39.67265, -3.97422, "01:00 - Regreso"]
 ];
 
 // Map config
