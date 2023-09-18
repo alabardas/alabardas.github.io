@@ -133,7 +133,8 @@ const points17T = [
     [39.67853, -3.97111, "22:05 - Rifa de la bandera"],
     [39.67847, -3.97110, "23:00 - Bailes de bandera de antiguos Alféreces"],
     [39.67858, -3.97055, "23:40 - Traca final de Feria"],
-    [39.67915, -3.97318, "00:00 - Nueva niña de la bandera"],
+    [39.67915, -3.97318, "00:00 - Nueva Niña de la bandera"],
+    [39.67934, -3.97229, "00:20 - Convite Niña de la bandera"],
     [39.67265, -3.97422, "01:00 - Regreso"]
 ];
 
