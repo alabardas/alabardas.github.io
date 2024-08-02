@@ -1,4 +1,4 @@
-# Recorrido Alabardas Sonseca 2023
+# Recorrido Alabardas Sonseca 2024
 
 Unofficial website based on the official schedule.
 
