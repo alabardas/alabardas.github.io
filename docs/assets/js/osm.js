@@ -44,7 +44,7 @@ const pointsFinde1M = [
     [39.67801, -3.97556, "09:15 - Plaza Majuelo"],
     [39.68256, -3.98196, "09:40 - Panadera"],  // C/ Bruselas, 22
     [39.68207, -3.97268, "11:25 - 2ª del Bastón"],  // C/ Dulcinea, 6
-    [39.67571, -3.97586, "13:10 - 1ª Dama"],  // C/ Juan de Padilla, 11
+    [39.674663, -3.970176, "13:10 - 1ª Dama"],  // C/ Juan de Padilla, 11
     [39.67283, -3.97443, "14:40 - Recogida"],  // C/ Candelaria, 1
 ];
 
