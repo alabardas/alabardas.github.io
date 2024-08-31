@@ -124,7 +124,7 @@ const pointsOctT = [
     [39.67858, -3.97055, "00:00 - Traca final de Feria"],
     [39.67876, -3.97047, "00:15 - Nuevo Niño de la bandera"],
     [39.67892, -3.97053, "00:30 - Convite nuevo Niño de la bandera"],
-    [39.67265, -3.97422, "01:30 - Regreso"]
+    [39.67233, -3.97378, "01:30 - Regreso nuevo alférez"]
 ];
 
 // Map config
