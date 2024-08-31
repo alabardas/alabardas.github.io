@@ -243,6 +243,13 @@ legend[9].parentElement.style.color = '#AC1112';
 
 function create_group(array, group, background, line, text) {
     for (let i = 0; i < array.length; i++) {
+        // URL de Google Maps con las coordenadas
+        const googleMapsUrl = `https://www.google.com/maps?q=${array[i][0]},${array[i][1]}`;
+
+        // Texto del enlace con el icono de enlace
+        const linkHtml = `<br><a href="${googleMapsUrl}" target="_blank" style="color: #0078ff;">&#128279; Ir</a>`;
+
+        // Popup con el texto original más el enlace a Google Maps
         marker = L.marker([array[i][0], array[i][1]], {
             icon: new L.Icon({
                 iconUrl: `https://marker.nanoka.fr/map_pin-${background}-${text}-${line}-${(i + 1)}-40.svg`,
@@ -252,7 +259,8 @@ function create_group(array, group, background, line, text) {
                 popupAnchor: [1, -34],
                 shadowSize: [41, 41]
             })
-        }).bindPopup(array[i][2]);
+        }).bindPopup(array[i][2] + linkHtml);
+
         group.addLayer(marker);
     }
 
