@@ -53,7 +53,7 @@ const pointsFinde1T = [
     [39.67602, -3.99056, "16:55 - Residencia de Mayores"],  // Av. de los Olmos, 44
     [39.68025, -3.98450, "17:50 - 2º del Junco"],  // C/ La Haya, 9
     [39.67880, -3.98514, "19:25 - Pastora"],  // C/ Jesús Aguado, 7
-    [39.68209, -3.97114, "21:15 - Reina"],  // C/ Rafael, s/n
+    [39.68233, -3.97017, "21:15 - Reina"],  // C/ Rafael, s/n
     [39.67283, -3.97443, "22:45 - Regreso"],  // C/ Candelaria, 1
 ];
 
