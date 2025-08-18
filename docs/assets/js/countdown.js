@@ -75,10 +75,19 @@ function getDay() {
         endTime = day_7_E
         name = "¡Es la víspera del día de la Virgen! A las alabardas les quedan en la calle:"
         document.getElementById("fireworks").style.display = "block";
-    } else if (now > day_find2_E) {
+    } else if (now > day_find3_E) {
         endTime = day_7_B
         console.log(endTime)
         name = "¡Nos vemos para los días grandes! Aún quedan:"
+        document.getElementById("fireworks").remove();
+    } else if (now > day_find3_B) {
+        endTime = day_find3_E
+        name = "¡Las alabardas están en la calle! Les quedan:"
+        document.getElementById("fireworks").style.display = "block";
+    } else if (now > day_find2_E) {
+        endTime = day_find3_B
+        console.log(endTime)
+        name = "Volvemos el sábado 6 de agosto, quedan:"
         document.getElementById("fireworks").remove();
     } else if (now > day_find2_B) {
         endTime = day_find2_E
@@ -86,7 +95,7 @@ function getDay() {
         document.getElementById("fireworks").style.display = "block";
     } else if (now > day_find1_E) {
         endTime = day_find2_B
-        name = "Volvemos el domingo 1 de septiembre, quedan:"
+        name = "Volvemos el domingo 31 de agosto, quedan:"
         document.getElementById("fireworks").remove();
     } else if (now > day_find1_B) {
         endTime = day_find1_E
@@ -94,7 +103,7 @@ function getDay() {
         document.getElementById("fireworks").style.display = "block";
     } else if (now > day_28_E) {
         endTime = day_find1_B
-        name = "Volvemos el sábado 31 de agosto, quedan:"
+        name = "Volvemos el sábado 30 de agosto, quedan:"
         document.getElementById("fireworks").remove();
     } else if (now > day_28_B) {
         endTime = day_28_E
