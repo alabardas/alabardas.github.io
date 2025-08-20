@@ -1,15 +1,14 @@
 // coordinate array with popup text
 const points28M = [
-    //[39.67243, -3.97446, "06:00 - Recogida 1ª, 2ª, 3ª y 4ª de la Virgen"],
-    [39.67990, -3.98388, "06:00 - Recogida 1ª, 2ª, 3ª y 4ª de la Virgen"],  // C/ Belgrado, 14
-    [39.68055, -3.97650, "06:15 - Recogida Junco"],  // C/ Toledo, 60
-    [39.68252, -3.97429, "06:25 - Recogida Bastón"],  // C/ Ajofrín, 21
-    [39.67915, -3.97318, "06:35 - Recogida Niña de la Bandera"],  // C/ Pedro de Heredia, 7
-    [39.66986, -3.97609, "07:00 - Desayuno Junco"],  // C/ Cerrada, 32
-    [39.67283, -3.97443, "08:15 - Salida Oficial"],  // C/ Candelaria, 1
+    [39.680147, -3.983713, "06:30 - Recogida 1ª, 2ª, 3ª y 4ª de la Virgen"],  // C/ Viena, 5
+    [39.675614, -3.977083, "06:45 - Recogida Bastón"],  // Pasaje Maestro Ceferino Ruiz, 9
+    [39.678187, -3.976823, "06:50 - Recogida Junco"],  // C/ Ramón y Cajal, 60
+    [39.675726, -3.982308, "07:00 - Recogida Niño de la Bandera y Ayudante"],  // C/ S. Ignacio, 1
+    [39.678100, -3.976807, "07:15 - Desayuno Junco"],  // C/ Ramón y Cajal, 60
+    [39.672289, -3.973722, "08:20 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
     [39.67693, -3.97068, "08:30 - Ermita del Cristo"],
     [39.67801, -3.97556, "09:00 - Plaza Majuelo"],
-    [39.67924, -3.97824, "09:30 - Barrio del Cerrillo"],
+    [39.67924, -3.97824, "09:25 - Plazuela del Cerrillo"],
     [39.67632, -3.97357, "10:00 - Misa en la Iglesia Parroquial"],
     [39.67858, -3.97097, "11:15 - Ermita de la Virgen"],
     [39.67747, -3.97244, "11:45 - Casa Parroquial"],
@@ -20,68 +19,67 @@ const points28M = [
 ];
 
 const points28T = [
-    [39.67283, -3.97443, "17:00 - Salida Oficial"],  // C/ Candelaria, 1
-    [39.67577, -3.97894, "17:10 - Plaza Malpica"],
-    [39.67316, -3.98299, "17:30 - Cementerio"],
-    [39.67184, -3.97892, "18:05 - Plaza del Oteruelo"],
-    [39.66986, -3.97609, "18:25 - Junco"],  // C/ Cerrada, 32
-    [39.67430, -3.97217, "20:05 - Plaza del Pozobueno"],
-    [39.67654, -3.96836, "20:25 - Glorieta de Jesús Nazareno"],
-    [39.67550, -3.97402, "20:50 - Subayudante"],  // C/ Cervantes, 7
-    [39.67269, -3.97425, "22:20 - Regreso"],  // C/ Candelaria, 1
+    [39.672289, -3.973722, "17:30 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
+    [39.67577, -3.97894, "17:40 - Plaza Malpica"],
+    [39.67602, -3.99056, "18:10 - Residencia de Mayores"],  // Av. de los Olmos, 44
+    [39.67316, -3.98299, "19:00 - Cementerio"],
+    [39.67184, -3.97892, "19:30 - Plaza del Oteruelo"],
+    [39.672111, -3.978840, "19:45 - Vivienda de Mayores"],  // Plaza del Oteruelo, 15
+    [39.67430, -3.97217, "19:55 - Plaza del Pozobueno"],
+    [39.67654, -3.96836, "20:15 - Glorieta de Jesús Nazareno"],
+    [39.685905, -3.975361, "20:50 - Cuarta de la Virgen"],  // Avda. Río Algodor, 15
+    [39.672289, -3.973722, "22:45 - Regreso"],  // C/ S. Pedro de la Mata, 8
 ];
 
 const pointsFinde1M = [
-    [39.67693, -3.99180, "06:30 - Recogida 2ª y 4ª de la Virgen"],  // C/ Ficus, 9
-    [39.67990, -3.98388, "06:50 - Recogida 1ª y 3ª de la Virgen"],  // C/ Belgrado, 14
-    [39.68055, -3.97650, "07:00 - Recogida Junco"],  // C/ Toledo, 60
-    [39.67920, -3.97325, "07:10 - Recogida Bastón"],  // C/ Pedro de Heredia, 7
-    [39.67915, -3.97318, "07:10 - Recogida Niño de la Bandera"],  // C/ Pedro de Heredia, 7
-    [39.67892, -3.97308, "07:10 - Desayuno Bastón"],  // C/ Pedro de Heredia, 7
-    [39.67264, -3.97418, "08:25 - Salida Oficial"],  // C/ Candelaria, 1
-    [39.67693, -3.97068, "08:35 - Ermita del Cristo"],
-    [39.67858, -3.97097, "08:55 - Ermita de la Virgen"],
-    [39.67801, -3.97556, "09:15 - Plaza Majuelo"],
-    [39.68256, -3.98196, "09:40 - Panadera"],  // C/ Bruselas, 22
-    [39.68207, -3.97268, "11:25 - 2ª del Bastón"],  // C/ Dulcinea, 6
-    [39.674663, -3.970176, "13:10 - 1ª Dama"],  // C/ Juan de Padilla, 11
-    [39.67283, -3.97443, "14:40 - Recogida"],  // C/ Candelaria, 1
+    [39.679737, -3.966776, "08:00 - Recogida 1ª, 2ª, 3ª y 4ª de la Virgen"],  // C/ Greco, 10
+    [39.675614, -3.977083, "08:20 - Recogida Bastón"],  // Pasaje Maestro Ceferino Ruiz, 9
+    [39.678187, -3.976823, "08:25 - Recogida Junco"],  // C/ Ramón y Cajal, 60
+    [39.675726, -3.982308, "08:35 - Recogida Niño de la Bandera y Ayudante"],  // C/ S. Ignacio, 1
+    [39.675614, -3.977083, "08:50 - Desayuno Bastón"],  // Pasaje Maestro Ceferino Ruiz, 9
+    [39.672289, -3.973722, "10:00 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
+    [39.67693, -3.97068, "10:10 - Ermita del Cristo"],
+    [39.67858, -3.97097, "10:30 - Ermita de la Virgen"],
+    [39.67801, -3.97556, "10:50 - Plaza Majuelo"],
+    [39.675614, -3.977083, "11:00 - Bastón"],  // Pasaje Maestro Ceferino Ruiz, 9
+    [39.676883, -3.988106, "12:45 - Subayudante"],  // C/ Caléndula, 34
+    [39.672289, -3.973722, "14:35 - Recogida"],  // C/ S. Pedro de la Mata, 8
 ];
 
 const pointsFinde1T = [
-    [39.67269, -3.97425, "16:30 - Salida Oficial"],  // C/ Candelaria, 1
-    [39.67602, -3.99056, "16:55 - Residencia de Mayores"],  // Av. de los Olmos, 44
-    [39.68025, -3.98450, "17:50 - 2º del Junco"],  // C/ La Haya, 9
-    [39.67880, -3.98514, "19:25 - Pastora"],  // C/ Jesús Aguado, 7
-    [39.68233, -3.97017, "21:15 - Reina"],  // C/ Rafael, s/n
-    [39.67283, -3.97443, "22:45 - Regreso"],  // C/ Candelaria, 1
+    [39.672289, -3.973722, "17:15 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
+    [39.679221, -3.981766, "17:30 - 1ª Dama"],  // C/ Nazaret, 4
+    [39.678156, -3.981871, "19:10 - 2ª del Junco"],  // C/ Santa Rosa de Lima, 9
+    [39.676690, -3.982214, "20:45 - Labradora"],  // C/ San Miguel, 14
+    [39.672289, -3.973722, "22:30 - Regreso"],  // C/ S. Pedro de la Mata, 8
 ];
 
 const pointsFinde2M = [
-    [39.67522, -3.97441, "06:30 - Recogida 1ª y 3ª de la Virgen"],  // C/ Horno, 7
-    [39.67241, -3.97449, "06:40 - Recogida 2º y 4º de la Virgen"],  // C/ San Ildefonso, 6
-    [39.66986, -3.97609, "06:50 - Recogida Junco"],  // C/ Cerrada, 32
-    [39.67920, -3.97325, "07:10 - Recogida Bastón"],  // C/ Pedro de Heredia, 7
-    [39.67915, -3.97318, "07:10 - Recogida Niño de la Bandera"],  // C/ Pedro de Heredia, 7
-    [39.67892, -3.97308, "07:10 - Desayuno Bastón"],  // C/ Pedro de Heredia, 7
-    [39.67269, -3.97425, "08:20 - Salida Oficial"],  // C/ Candelaria, 1
-    [39.67693, -3.97068, "08:30 - Ermita del Cristo"],
-    [39.67858, -3.97097, "08:50 - Ermita de la Virgen"],
-    [39.67801, -3.97556, "09:15 - Plaza Majuelo"],
-    [39.67685, -3.99181, "09:50 - 2ª de la Virgen"],  // C/ Ficus, 9
+    [39.675162, -3.972234, "06:30 - Recogida 1ª, 2ª, 3ª y 4ª de la Virgen"],  // C/ Don César Pérez, 16
+    [39.675614, -3.977083, "06:45 - Recogida Bastón"],  // Pasaje Maestro Ceferino Ruiz, 9
+    [39.678187, -3.976823, "06:50 - Recogida Junco"],  // C/ Ramón y Cajal, 60
+    [39.675726, -3.982308, "07:00 - Recogida Niño de la Bandera y Ayudante"],  // C/ S. Ignacio, 1
+    [39.675614, -3.977083, "07:10 - Desayuno Bastón"],  // Pasaje Maestro Ceferino Ruiz, 9
+    [39.672289, -3.973722, "08:30 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
+    [39.67693, -3.97068, "08:40 - Ermita del Cristo"],
+    [39.67858, -3.97097, "09:00 - Ermita de la Virgen"],
+    [39.67801, -3.97556, "09:30 - Plaza Majuelo"],
+    [39.679809, -3.984593, "10:00 - Arriera"],  // C/ Viena, 23
     [39.67632, -3.97357, "12:00 - Misa en la Iglesia Parroquial"],  // C/ Pedro de Heredia, 7
-    [39.67887, -3.97306, "13:30 - Convite Niño de la Bandera"],
-    [39.67283, -3.97443, "15:15 - Regreso"],  // C/ Candelaria, 1
+    [39.675726, -3.982308, "13:20 - Niño de la Bandera"],  // C/ S. Ignacio, 1
+    [39.672289, -3.973722, "15:15 - Regreso"],  // C/ S. Pedro de la Mata, 8
 ];
 
 const pointsFinde2T = [
-    [39.67283, -3.97443, "17:00 - Salida Oficial"],  // C/ Candelaria, 1
-    [39.66972, -3.97592, "17:10 - 2º Dama"],  // C/ Cerrada, 36
-    [39.67665, -3.98257, "19:00 - Laborante"],  // C/ San Miguel, 9
-    [39.67505, -3.97159, "20:50 - 1ª del Bastón"],  // C/ María Cristina, 10
-    [39.67269, -3.97425, "22:20 - Regreso"],  // C/ Candelaria, 1
+    [39.672289, -3.973722, "18:40 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
+    [39.676242, -3.971861, "18:50 - Panadera"],  // C/ Mora, 7
+    [39.678187, -3.976823, "10:20 - Junco"],  // C/ Ramón y Cajal, 60
+    [39.672289, -3.973722, "22:10 - Regreso"],  // C/ S. Pedro de la Mata, 8
 ];
 
+// pointsFinde3
+
+/*
 const points7 = [
     [39.67283, -3.97443, "17:20 - Salida Oficial"],
     [39.67579, -3.97511, "17:35 - Recogida de Autoridades"],
@@ -96,7 +94,7 @@ const points7 = [
 
 const points8 = [
     [39.67659, -3.97452, "08:45 - Salida con Banda de Música"],  // C/ Toledo, 7
-    [39.67915, -3.97318, "08:55 - Desayuno y Baile Niña de la Bandera"],  // C/ Pedro de Heredia, 7
+    [39.67915, -3.97318, "08:55 - Desayuno y Baile Niño de la Bandera"],  // C/ Pedro de Heredia, 7
     [39.67283, -3.97443, "10:00 - Salida Oficial con Banda de Música"],  // C/ Candelaria, 1
     [39.67579, -3.97511, "10:10 - Recogida de Autoridades"],
     [39.67747, -3.97244, "10:15 - Recogida de Patronato"],
@@ -108,7 +106,7 @@ const points8 = [
 
 const pointsOctM = [
     [39.67658, -3.97453, "10:15 - Salida con Banda de Música"],  // C/ Toledo, 7
-    [39.67915, -3.97318, "10:25 - Desayuno Niña de la Bandera"],  // C/ Pedro de Heredia, 7
+    [39.67915, -3.97318, "10:25 - Desayuno Niño de la Bandera"],  // C/ Pedro de Heredia, 7
     [39.67283, -3.97443, "11:30 - Salida Oficial"],
     [39.67579, -3.97511, "11:40 - Recogida de Autoridades"],
     [39.67747, -3.97244, "11:45 - Recogida de Patronato"],
@@ -125,6 +123,7 @@ const pointsOctT = [
     [39.67569, -3.98234, "00:15 - Nuevo Niño de la bandera"],
     [39.67210, -3.97356, "01:30 - Regreso nuevo alférez"]
 ];
+*/
 
 // Map config
 let config = {
@@ -150,10 +149,10 @@ const pFinde1M = new L.FeatureGroup();
 const pFinde1T = new L.FeatureGroup();
 const pFinde2M = new L.FeatureGroup();
 const pFinde2T = new L.FeatureGroup();
-const p7 = new L.FeatureGroup();
-const p8 = new L.FeatureGroup();
-const pOctM = new L.FeatureGroup();
-const pOctT = new L.FeatureGroup();
+// const p7 = new L.FeatureGroup();
+// const p8 = new L.FeatureGroup();
+// const pOctM = new L.FeatureGroup();
+// const pOctT = new L.FeatureGroup();
 const allMarkers = new L.FeatureGroup();
 
 // adding markers to the layer points28M
@@ -175,32 +174,29 @@ create_group(pointsFinde2M, pFinde2M, '9C2BCB', '742E98', 'FFF')
 create_group(pointsFinde2T, pFinde2T, '7B7B7B', '6B6B6B', 'FFF')
 
 // adding markers to the layer points7
-create_group(points7, p7, 'FFFFFF', '000', '000')
+//create_group(points7, p7, 'FFFFFF', '000', '000')
 
 // adding markers to the layer points8
-create_group(points8, p8, '00BCD4', '007887', 'FFF')
-
-// adding markers to the layer pointsOct1T
-//create_group(pointsOct1T, p16, 'F0EEAC', 'D9CF91', '000')
+//create_group(points8, p8, '00BCD4', '007887', 'FFF')
 
 // adding markers to the layer pointsOctM
-create_group(pointsOctM, pOctM, 'C26224', '753B15', 'FFF')
+//create_group(pointsOctM, pOctM, 'C26224', '753B15', 'FFF')
 
 // adding markers to the layer pointsOctT
-create_group(pointsOctT, pOctT, 'f9191A', 'AC1112', 'FFF')
+//create_group(pointsOctT, pOctT, 'f9191A', 'AC1112', 'FFF')
 
 // object with layers
 const overlayMaps = {
-    "28/8 Mañana": p28M,
+    "28/8 Ma\u00F1ana": p28M,
     "28/8 Tarde": p28T,
-    "31/8 Mañana": pFinde1M,
-    "31/8 Tarde": pFinde1T,
-    "1/9 Mañana": pFinde2M,
-    "1/9 Tarde": pFinde2T,
-    "7/9 Tarde": p7,
-    "8/9 Mañana": p8,
-    "15/9 Mañana": pOctM,
-    "15/9 Tarde": pOctT,
+    "30/8 Ma\u00F1ana": pFinde1M,
+    "30/8 Tarde": pFinde1T,
+    "31/8 Ma\u00F1ana": pFinde2M,
+    "31/8 Tarde": pFinde2T,
+    //"7/9 Tarde": p7,
+    //"8/9 Mañana": p8,
+    //"15/9 Mañana": pOctM,
+    //"15/9 Tarde": pOctT,
 };
 
 // centering a group of markers
@@ -235,10 +231,10 @@ legend[2].parentElement.style.color = '#23B721';
 legend[3].parentElement.style.color = '#CB2B3E';
 legend[4].parentElement.style.color = '#742E98';
 legend[5].parentElement.style.color = '#6B6B6B';
-legend[6].parentElement.style.color = '#000000';
-legend[7].parentElement.style.color = '#007887';
-legend[8].parentElement.style.color = '#C26224';
-legend[9].parentElement.style.color = '#AC1112';
+// legend[6].parentElement.style.color = '#000000';
+// legend[7].parentElement.style.color = '#007887';
+// legend[8].parentElement.style.color = '#C26224';
+// legend[9].parentElement.style.color = '#AC1112';
 
 function create_group(array, group, background, line, text) {
     for (let i = 0; i < array.length; i++) {
