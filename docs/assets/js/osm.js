@@ -77,25 +77,38 @@ const pointsFinde2T = [
     [39.672289, -3.973722, "22:10 - Regreso"],  // C/ S. Pedro de la Mata, 8
 ];
 
-// pointsFinde3
+const pointsFinde3M = [
+    [39.685927, -3.975366, "07:15 - Recogida 1ª, 2ª, 3ª y 4ª de la Virgen"],  // Avda. Río Algodor, 15
+    [39.675614, -3.977083, "07:35 - Recogida Bastón"],  // Pasaje Maestro Ceferino Ruiz, 9
+    [39.678187, -3.976823, "07:45 - Recogida Junco"],  // C/ Ramón y Cajal, 60
+    [39.675726, -3.982308, "07:55 - Recogida Niño de la Bandera y Ayudante"],  // C/ S. Ignacio, 1
+    [39.678100, -3.976807, "08:15 - Desayuno Junco"],  // C/ Ramón y Cajal, 60
+    [39.672289, -3.973722, "09:20 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
+    [39.67693, -3.97068, "09:30 - Ermita del Cristo"],
+    [39.67858, -3.97097, "09:50 - Ermita de la Virgen"],
+    [39.67801, -3.97556, "10:10 - Plaza Majuelo"],
+    [39.670950, -3.973379, "10:30 - 2ª Dama"],  // C/ Mirasierra, 25
+    [39.675193, -3.972526, "12:10 - 3ª de la Virgen"],  // C/ Orgaz, 17
+    [39.679916, -3.983882, "14:00 - Reina"],  // C/ Belgrado, 14
+    [39.672289, -3.973722, "15:50 - Regreso"],  // C/ S. Pedro de la Mata, 8
+];
 
-/*
 const points7 = [
-    [39.67283, -3.97443, "17:20 - Salida Oficial"],
+    [39.672289, -3.973722, "17:20 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
     [39.67579, -3.97511, "17:35 - Recogida de Autoridades"],
     [39.67747, -3.97244, "17:45 - Recogida de Patronato"],
     [39.67853, -3.97123, "18:00 - Eucaristía con Vísperas"],
-    [39.67265, -3.97422, "19:30 - Alférez"],
+    [39.672289, -3.973722, "19:30 - Alférez"],  // C/ S. Pedro de la Mata, 8
     [39.67790, -3.96973, "21:30 - Pregón"],
     [39.67858, -3.97094, "23:30 - Salve"],
     [39.68151, -3.97019, "00:00 - Pólvora"],
-    [39.67274, -3.97433, "01:00 - Regreso"],  // C/ Candelaria, 1
+    [39.672289, -3.973722, "01:00 - Regreso"],  // C/ S. Pedro de la Mata, 8
 ];
 
 const points8 = [
-    [39.67659, -3.97452, "08:45 - Salida con Banda de Música"],  // C/ Toledo, 7
-    [39.67915, -3.97318, "08:55 - Desayuno y Baile Niño de la Bandera"],  // C/ Pedro de Heredia, 7
-    [39.67283, -3.97443, "10:00 - Salida Oficial con Banda de Música"],  // C/ Candelaria, 1
+    [39.67659, -3.97452, "08:30 - Salida con Banda de Música"],  // C/ Toledo, 7
+    [39.675726, -3.982308, "08:45 - Desayuno y Baile Niño de la Bandera"],  // C/ S. Ignacio, 1
+    [39.672289, -3.973722, "10:00 - Salida Oficial con Banda de Música"], // C/ S. Pedro de la Mata, 8
     [39.67579, -3.97511, "10:10 - Recogida de Autoridades"],
     [39.67747, -3.97244, "10:15 - Recogida de Patronato"],
     [39.67853, -3.97123, "10:30 - Eucaristía"],
@@ -105,9 +118,9 @@ const points8 = [
 ];
 
 const pointsOctM = [
-    [39.67658, -3.97453, "10:15 - Salida con Banda de Música"],  // C/ Toledo, 7
-    [39.67915, -3.97318, "10:25 - Desayuno Niño de la Bandera"],  // C/ Pedro de Heredia, 7
-    [39.67283, -3.97443, "11:30 - Salida Oficial"],
+    [39.67658, -3.97453, "10:10 - Salida con Banda de Música"],  // C/ Toledo, 7
+    [39.675726, -3.982308, "10:20 - Desayuno Niño de la Bandera"],  // C/ S. Ignacio, 1
+    [39.672289, -3.973722, "11:30 - Salida Oficial"], // C/ S. Pedro de la Mata, 8
     [39.67579, -3.97511, "11:40 - Recogida de Autoridades"],
     [39.67747, -3.97244, "11:45 - Recogida de Patronato"],
     [39.67853, -3.97123, "12:00 - Eucaristía"],
@@ -116,14 +129,13 @@ const pointsOctM = [
 
 const pointsOctT = [
     [39.67858, -3.97094, "19:30 - Novena y Procesión"],
-    [39.67842, -3.97081, "22:00 - Cambio de alabardas"],
+    // [39.67842, -3.97081, "22:00 - Cambio de alabardas"],
     [39.67847, -3.97110, "22:30 - Rifa de la bandera"],
     [39.67835, -3.97114, "23:30 - Bailes de bandera de antiguos Alféreces"],
     [39.67858, -3.97055, "00:00 - Traca final de Feria"],
-    [39.67569, -3.98234, "00:15 - Nuevo Niño de la bandera"],
-    [39.67210, -3.97356, "01:30 - Regreso nuevo alférez"]
+    [39.67853, -3.97058, "00:15 - Nuevo Niño de la bandera"],
+    [39.672289, -3.973722, "01:30 - Regreso"],  // C/ S. Pedro de la Mata, 8
 ];
-*/
 
 // Map config
 let config = {
@@ -149,11 +161,11 @@ const pFinde1M = new L.FeatureGroup();
 const pFinde1T = new L.FeatureGroup();
 const pFinde2M = new L.FeatureGroup();
 const pFinde2T = new L.FeatureGroup();
-// const p7 = new L.FeatureGroup();
-// const p8 = new L.FeatureGroup();
-// const pOctM = new L.FeatureGroup();
-// const pOctT = new L.FeatureGroup();
-const allMarkers = new L.FeatureGroup();
+const pFinde3M = new L.FeatureGroup();
+const p7 = new L.FeatureGroup();
+const p8 = new L.FeatureGroup();
+const pOctM = new L.FeatureGroup();
+const pOctT = new L.FeatureGroup();
 
 // adding markers to the layer points28M
 create_group(points28M, p28M, '05519E', '03366B', 'FFF')
@@ -173,17 +185,20 @@ create_group(pointsFinde2M, pFinde2M, '9C2BCB', '742E98', 'FFF')
 // adding markers to the layer pointsFinde2T
 create_group(pointsFinde2T, pFinde2T, '7B7B7B', '6B6B6B', 'FFF')
 
+// adding markers to the layer pointsFinde3M
+create_group(pointsFinde3M, pFinde3M, 'F0EEAC', 'D9CF91', '000')
+
 // adding markers to the layer points7
-//create_group(points7, p7, 'FFFFFF', '000', '000')
+create_group(points7, p7, 'FFFFFF', '000', '000')
 
 // adding markers to the layer points8
-//create_group(points8, p8, '00BCD4', '007887', 'FFF')
+create_group(points8, p8, '00BCD4', '007887', 'FFF')
 
 // adding markers to the layer pointsOctM
-//create_group(pointsOctM, pOctM, 'C26224', '753B15', 'FFF')
+create_group(pointsOctM, pOctM, 'C26224', '753B15', 'FFF')
 
 // adding markers to the layer pointsOctT
-//create_group(pointsOctT, pOctT, 'f9191A', 'AC1112', 'FFF')
+create_group(pointsOctT, pOctT, 'f9191A', 'AC1112', 'FFF')
 
 // object with layers
 const overlayMaps = {
@@ -193,10 +208,11 @@ const overlayMaps = {
     "30/8 Tarde": pFinde1T,
     "31/8 Ma\u00F1ana": pFinde2M,
     "31/8 Tarde": pFinde2T,
-    //"7/9 Tarde": p7,
-    //"8/9 Mañana": p8,
-    //"15/9 Mañana": pOctM,
-    //"15/9 Tarde": pOctT,
+    "6/9 Ma\u00F1ana": pFinde3M,
+    "7/9 Tarde": p7,
+    "8/9 Ma\u00F1ana": p8,
+    "15/9 Ma\u00F1ana": pOctM,
+    "15/9 Tarde": pOctT,
 };
 
 // centering a group of markers
@@ -231,10 +247,11 @@ legend[2].parentElement.style.color = '#23B721';
 legend[3].parentElement.style.color = '#CB2B3E';
 legend[4].parentElement.style.color = '#742E98';
 legend[5].parentElement.style.color = '#6B6B6B';
-// legend[6].parentElement.style.color = '#000000';
-// legend[7].parentElement.style.color = '#007887';
-// legend[8].parentElement.style.color = '#C26224';
-// legend[9].parentElement.style.color = '#AC1112';
+legend[6].parentElement.style.color = '#D9CF91';
+legend[7].parentElement.style.color = '#000000';
+legend[8].parentElement.style.color = '#007887';
+legend[9].parentElement.style.color = '#C26224';
+legend[10].parentElement.style.color = '#AC1112';
 
 function create_group(array, group, background, line, text) {
     for (let i = 0; i < array.length; i++) {
