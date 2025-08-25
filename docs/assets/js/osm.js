@@ -259,7 +259,7 @@ function create_group(array, group, background, line, text) {
         const googleMapsUrl = `https://www.google.com/maps?q=${array[i][0]},${array[i][1]}`;
 
         // Texto del enlace con el icono de enlace
-        const linkHtml = `<br><a href="${googleMapsUrl}" target="_blank" style="color: #0078ff;">&#128279; Ir</a>`;
+        const linkHtml = `<br><a href="${googleMapsUrl}" target="_blank" style="color: #0078ff;">📍 Abrir en Google Maps</a>`;
 
         // Popup con el texto original más el enlace a Google Maps
         marker = L.marker([array[i][0], array[i][1]], {
