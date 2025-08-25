@@ -2,9 +2,9 @@
 const points28M = [
     [39.680147, -3.983713, "06:30 - Recogida 1ª, 2ª, 3ª y 4ª de la Virgen"],  // C/ Viena, 5
     [39.675614, -3.977083, "06:45 - Recogida Bastón"],  // Pasaje Maestro Ceferino Ruiz, 9
-    [39.678187, -3.976823, "06:50 - Recogida Junco"],  // C/ Ramón y Cajal, 60
+    [39.677978, -3.976799, "06:50 - Recogida Junco"],  // C/ Ramón y Cajal, 60
     [39.675726, -3.982308, "07:00 - Recogida Niño de la Bandera y Ayudante"],  // C/ S. Ignacio, 1
-    [39.678100, -3.976807, "07:15 - Desayuno Junco"],  // C/ Ramón y Cajal, 60
+    [39.678187, -3.976823, "07:15 - Desayuno Junco"],  // C/ Ramón y Cajal, 60
     [39.672289, -3.973722, "08:20 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
     [39.67693, -3.97068, "08:30 - Ermita del Cristo"],
     [39.67801, -3.97556, "09:00 - Plaza Majuelo"],
@@ -15,11 +15,11 @@ const points28M = [
     [39.67552, -3.97546, "12:10 - Plaza Juan Carlos I"],
     [39.67723, -3.97068, "12:30 - Casa de la Alcaldesa"],  // Avda. Fray Gabriel de la Magdalena, 15
     [39.67754, -3.98055, "13:45 - Casa del Administrador"],  // C/ Belén, 14
-    [39.67269, -3.97425, "15:15 - Regreso"],
+    [39.672363, -3.973696, "15:15 - Regreso"],
 ];
 
 const points28T = [
-    [39.672289, -3.973722, "17:30 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
+    [39.672324, -3.973564, "17:30 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
     [39.67577, -3.97894, "17:40 - Plaza Malpica"],
     [39.67602, -3.99056, "18:10 - Residencia de Mayores"],  // Av. de los Olmos, 44
     [39.67316, -3.98299, "19:00 - Cementerio"],
@@ -33,11 +33,11 @@ const points28T = [
 
 const pointsFinde1M = [
     [39.679737, -3.966776, "08:00 - Recogida 1ª, 2ª, 3ª y 4ª de la Virgen"],  // C/ Greco, 10
-    [39.675614, -3.977083, "08:20 - Recogida Bastón"],  // Pasaje Maestro Ceferino Ruiz, 9
+    [39.675540, -3.977029, "08:20 - Recogida Bastón"],  // Pasaje Maestro Ceferino Ruiz, 9
     [39.678187, -3.976823, "08:25 - Recogida Junco"],  // C/ Ramón y Cajal, 60
     [39.675726, -3.982308, "08:35 - Recogida Niño de la Bandera y Ayudante"],  // C/ S. Ignacio, 1
     [39.675614, -3.977083, "08:50 - Desayuno Bastón"],  // Pasaje Maestro Ceferino Ruiz, 9
-    [39.672289, -3.973722, "10:00 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
+    [39.672363, -3.973696, "10:00 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
     [39.67693, -3.97068, "10:10 - Ermita del Cristo"],
     [39.67858, -3.97097, "10:30 - Ermita de la Virgen"],
     [39.67801, -3.97556, "10:50 - Plaza Majuelo"],
@@ -47,7 +47,7 @@ const pointsFinde1M = [
 ];
 
 const pointsFinde1T = [
-    [39.672289, -3.973722, "17:15 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
+    [39.672324, -3.973564, "17:15 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
     [39.679221, -3.981766, "17:30 - 1ª Dama"],  // C/ Nazaret, 4
     [39.678156, -3.981871, "19:10 - 2ª del Junco"],  // C/ Santa Rosa de Lima, 9
     [39.676690, -3.982214, "20:45 - Labradora"],  // C/ San Miguel, 14
@@ -56,34 +56,34 @@ const pointsFinde1T = [
 
 const pointsFinde2M = [
     [39.675162, -3.972234, "06:30 - Recogida 1ª, 2ª, 3ª y 4ª de la Virgen"],  // C/ Don César Pérez, 16
-    [39.675614, -3.977083, "06:45 - Recogida Bastón"],  // Pasaje Maestro Ceferino Ruiz, 9
+    [39.675540, -3.977029, "06:45 - Recogida Bastón"],  // Pasaje Maestro Ceferino Ruiz, 9
     [39.678187, -3.976823, "06:50 - Recogida Junco"],  // C/ Ramón y Cajal, 60
     [39.675726, -3.982308, "07:00 - Recogida Niño de la Bandera y Ayudante"],  // C/ S. Ignacio, 1
     [39.675614, -3.977083, "07:10 - Desayuno Bastón"],  // Pasaje Maestro Ceferino Ruiz, 9
-    [39.672289, -3.973722, "08:30 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
+    [39.672324, -3.973564, "08:30 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
     [39.67693, -3.97068, "08:40 - Ermita del Cristo"],
     [39.67858, -3.97097, "09:00 - Ermita de la Virgen"],
     [39.67801, -3.97556, "09:30 - Plaza Majuelo"],
     [39.679809, -3.984593, "10:00 - Arriera"],  // C/ Viena, 23
     [39.67632, -3.97357, "12:00 - Misa en la Iglesia Parroquial"],  // C/ Pedro de Heredia, 7
-    [39.675726, -3.982308, "13:20 - Niño de la Bandera"],  // C/ S. Ignacio, 1
+    [39.675676, -3.982150, "13:20 - Niño de la Bandera"],  // C/ S. Ignacio, 1
     [39.672289, -3.973722, "15:15 - Regreso"],  // C/ S. Pedro de la Mata, 8
 ];
 
 const pointsFinde2T = [
-    [39.672289, -3.973722, "18:40 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
+    [39.672324, -3.973564, "18:40 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
     [39.676242, -3.971861, "18:50 - Panadera"],  // C/ Mora, 7
-    [39.678187, -3.976823, "10:20 - Junco"],  // C/ Ramón y Cajal, 60
+    [39.678187, -3.976823, "20:30 - Junco"],  // C/ Ramón y Cajal, 60
     [39.672289, -3.973722, "22:10 - Regreso"],  // C/ S. Pedro de la Mata, 8
 ];
 
 const pointsFinde3M = [
     [39.685927, -3.975366, "07:15 - Recogida 1ª, 2ª, 3ª y 4ª de la Virgen"],  // Avda. Río Algodor, 15
     [39.675614, -3.977083, "07:35 - Recogida Bastón"],  // Pasaje Maestro Ceferino Ruiz, 9
-    [39.678187, -3.976823, "07:45 - Recogida Junco"],  // C/ Ramón y Cajal, 60
+    [39.677978, -3.976799, "07:45 - Recogida Junco"],  // C/ Ramón y Cajal, 60
     [39.675726, -3.982308, "07:55 - Recogida Niño de la Bandera y Ayudante"],  // C/ S. Ignacio, 1
-    [39.678100, -3.976807, "08:15 - Desayuno Junco"],  // C/ Ramón y Cajal, 60
-    [39.672289, -3.973722, "09:20 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
+    [39.678187, -3.976823, "08:15 - Desayuno Junco"],  // C/ Ramón y Cajal, 60
+    [39.672324, -3.973564, "09:20 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
     [39.67693, -3.97068, "09:30 - Ermita del Cristo"],
     [39.67858, -3.97097, "09:50 - Ermita de la Virgen"],
     [39.67801, -3.97556, "10:10 - Plaza Majuelo"],
@@ -94,7 +94,7 @@ const pointsFinde3M = [
 ];
 
 const points7 = [
-    [39.672289, -3.973722, "17:20 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
+    [39.672324, -3.973564, "17:20 - Salida Oficial"],  // C/ S. Pedro de la Mata, 8
     [39.67579, -3.97511, "17:35 - Recogida de Autoridades"],
     [39.67747, -3.97244, "17:45 - Recogida de Patronato"],
     [39.67853, -3.97123, "18:00 - Eucaristía con Vísperas"],
@@ -102,7 +102,7 @@ const points7 = [
     [39.67790, -3.96973, "21:30 - Pregón"],
     [39.67858, -3.97094, "23:30 - Salve"],
     [39.68151, -3.97019, "00:00 - Pólvora"],
-    [39.672289, -3.973722, "01:00 - Regreso"],  // C/ S. Pedro de la Mata, 8
+    [39.672450, -3.973725, "01:00 - Regreso"],  // C/ S. Pedro de la Mata, 8
 ];
 
 const points8 = [

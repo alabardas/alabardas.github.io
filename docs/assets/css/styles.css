@@ -6,7 +6,21 @@
     src: url('../fonts/covered-by-your-grace.woff2') format('woff2');
 }
 
+@font-face {
+    font-display: swap;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100 900;
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+.card-title {
+    --bs-card-title-color: #1779B1;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
 #day_name {
+    color: #1779B1;
     display: inline-block;
     line-height: 1;
     padding: 0;
@@ -59,15 +73,35 @@ h1 {
 }
 
 h2 {
-    font-size: 25px;
-    margin-top: 10px;
+    /*font-size: 25px;
+    margin-top: 10px;*/
+}
+
+a {
+    --bs-link-color-rgb: 23,121,177;
+    --bs-link-hover-color-rgb: 81,150,189;
+    text-decoration: none;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    --bs-heading-color: #1779B1;
+    --bs-font-sans-serif: 'Covered By Your Grace', cursive;
+}
+
+:root,
+[data-bs-theme=light] {
+    --bs-font-sans-serif: 'Montserrat', sans-serif;
+
+    & h1, & h2, & h3, & h4, & h5, & h6,
+    & .h1, & .h2, & .h3, & .h4, & .h5, & .h6 {
+        --bs-heading-color: #1779B1;
+        font-family: 'Covered By Your Grace', cursive;
+    }
 }
 
 body {
     text-align: center;
-    color: #1779B1;
     background: #f0f4f5;
-    font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, " Open Sans", " Helvetica Neue", sans-serif;
 }
 
 #virgen {
@@ -160,52 +194,47 @@ body {
     }
 }
 
-.tg {
+.table {
     border-collapse: collapse;
     border-spacing: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
     text-align: center;
     vertical-align: middle;
-    font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, " Open Sans", " Helvetica Neue", sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.tg th {
+.table th {
     border-color: #5196BD;
     border-style: solid;
     border-width: 1px;
     font-size: 14px;
     font-weight: normal;
     overflow: hidden;
-    padding: 10px 20px;
+    padding: .5rem .5rem;
     word-break: normal;
 }
 
-.tg td {
+.table td {
     border-color: #5196BD;
     border-style: solid;
     border-width: 1px;
     font-size: 14px;
     overflow: hidden;
-    padding: 10px 20px;
+    padding: .5rem .5rem;
     word-break: normal;
 }
 
-.tg .tg-p {
-    text-align: center;
-}
-
-.tg .tg-0 {
-    border: none !important;
-}
-
-.tg .tg-h1 {
-    background-color: rgba(81, 150, 189, 0.7);
+.table th,
+.table td.colored {
+    --bs-table-bg: rgba(81, 150, 189, 0.7);
+    --bs-table-color: white;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
+}
+
+.table tr > th.border-top {
+    --bs-border-color: #5196BD;
 }
 
 footer {

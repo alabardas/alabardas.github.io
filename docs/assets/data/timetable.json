@@ -1,0 +1,765 @@
+{
+  "2025-08-28": [
+    {
+      "time": "06:30",
+      "title": "Recogida 1ª, 2ª, 3ª y 4ª de la Virgen",
+      "lat": 39.680147,
+      "lng": -3.983713,
+      "address": "C/ Viena, 5"
+    },
+    {
+      "time": "06:45",
+      "title": "Recogida Bastón",
+      "lat": 39.675614,
+      "lng": -3.977083,
+      "address": "Pasaje Maestro Ceferino Ruiz, 9"
+    },
+    {
+      "time": "06:50",
+      "title": "Recogida Junco",
+      "lat": 39.677978,
+      "lng": -3.976799,
+      "address": "C/ Ramón y Cajal, 60"
+    },
+    {
+      "time": "07:00",
+      "title": "Recogida Niño de la Bandera y Ayudante",
+      "lat": 39.675726,
+      "lng": -3.982308,
+      "address": "C/ San Ignacio, 1"
+    },
+    {
+      "time": "07:15",
+      "title": "Desayuno Junco",
+      "lat": 39.678187,
+      "lng": -3.976823,
+      "address": "C/ Ramón y Cajal, 60"
+    },
+    {
+      "time": "08:20",
+      "title": "Salida Oficial",
+      "lat": 39.672289,
+      "lng": -3.973722,
+      "address": "C/ San Pedro de la Mata, 8"
+    },
+    {
+      "time": "08:30",
+      "title": "Baile en la Ermita del Cristo",
+      "lat": 39.67693,
+      "lng": -3.97068,
+      "address": "Ermita del Cristo"
+    },
+    {
+      "time": "09:00",
+      "title": "Baile en la Plaza Majuelo",
+      "lat": 39.67801,
+      "lng": -3.97556,
+      "address": "Plaza Majuelo"
+    },
+    {
+      "time": "09:25",
+      "title": "Baile en la Plazuela del Cerrillo",
+      "lat": 39.67924,
+      "lng": -3.97824,
+      "address": "Plazuela del Cerrillo"
+    },
+    {
+      "time": "10:00",
+      "title": "Misa en la Iglesia Parroquial",
+      "lat": 39.67632,
+      "lng": -3.97357,
+      "address": "Iglesia de San Juan Evangelista"
+    },
+    {
+      "time": "11:15",
+      "title": "Baile en la Ermita de la Virgen",
+      "lat": 39.67858,
+      "lng": -3.97097,
+      "address": "Ermita Virgen de los Remedios"
+    },
+    {
+      "time": "11:45",
+      "title": "Baile en la Casa Parroquial",
+      "lat": 39.67747,
+      "lng": -3.97244,
+      "address": "Casa Parroquial"
+    },
+    {
+      "time": "12:10",
+      "title": "Baile en la Plaza Juan Carlos I",
+      "lat": 39.67552,
+      "lng": -3.97546,
+      "address": "Plaza Juan Carlos I"
+    },
+    {
+      "time": "12:30",
+      "title": "Casa de la Alcaldesa",
+      "lat": 39.67723,
+      "lng": -3.97068,
+      "address": "Avda. Fray Gabriel de la Magdalena, 15"
+    },
+    {
+      "time": "13:45",
+      "title": "Casa del Administrador",
+      "lat": 39.67754,
+      "lng": -3.98055,
+      "address": "C/ Belén, 14"
+    },
+    {
+      "time": "15:15",
+      "title": "Descanso mediodía",
+      "lat": 39.672363,
+      "lng": -3.973696,
+      "address": "C/ San Pedro de la Mata, 8"
+    },
+    {
+      "time": "17:30",
+      "title": "Salida Oficial",
+      "lat": 39.672324,
+      "lng": -3.973564,
+      "address": "C/ San Pedro de la Mata, 8"
+    },
+    {
+      "time": "17:40",
+      "title": "Baile en la Plaza Malpica",
+      "lat": 39.67577,
+      "lng": -3.97894,
+      "address": "Plaza Malpica"
+    },
+    {
+      "time": "18:10",
+      "title": "Residencia de Mayores",
+      "lat": 39.67602,
+      "lng": -3.99056,
+      "address": "Av. de los Olmos, 44"
+    },
+    {
+      "time": "19:00",
+      "title": "Baile en el Cementerio",
+      "lat": 39.67316,
+      "lng": -3.98299,
+      "address": "Cementerio Municipal de Sonseca"
+    },
+    {
+      "time": "19:30",
+      "title": "Baile en la Plaza del Oteruelo",
+      "lat": 39.67184,
+      "lng": -3.97892,
+      "address": "Plaza del Oteruelo"
+    },
+    {
+      "time": "19:45",
+      "title": "Vivienda de Mayores",
+      "lat": 39.672111,
+      "lng": -3.978840,
+      "address": "Plaza del Oteruelo, 15"
+    },
+    {
+      "time": "19:55",
+      "title": "Baile en la Plaza del Pozobueno",
+      "lat": 39.67430,
+      "lng": -3.97217,
+      "address": "Plaza del Pozobueno"
+    },
+    {
+      "time": "20:15",
+      "title": "Baile en la Glorieta de Jesús Nazareno",
+      "lat": 39.67654,
+      "lng": -3.96836,
+      "address": "Glorieta de Jesús Nazareno"
+    },
+    {
+      "time": "20:50",
+      "title": "Cuarta de la Virgen",
+      "lat": 39.685905,
+      "lng": -3.975361,
+      "address": "Avda. Río Algodor, 15"
+    },
+    {
+      "time": "22:45",
+      "title": "Regreso",
+      "lat": 39.672289,
+      "lng": -3.973722,
+      "address": "C/ San Pedro de la Mata, 8"
+    }
+  ],
+  "2025-08-30": [
+    {
+      "time": "08:00",
+      "title": "Recogida 1ª, 2ª, 3ª y 4ª de la Virgen",
+      "lat": 39.679737,
+      "lng": -3.966776,
+      "address": "C/ Greco, 10"
+    },
+    {
+      "time": "08:20",
+      "title": "Recogida Bastón",
+      "lat": 39.675540,
+      "lng": -3.977029,
+      "address": "Pasaje Maestro Ceferino Ruiz, 9"
+    },
+    {
+      "time": "08:25",
+      "title": "Recogida Junco",
+      "lat": 39.678187,
+      "lng": -3.976823,
+      "address": "C/ Ramón y Cajal, 60"
+    },
+    {
+      "time": "08:35",
+      "title": "Recogida Niño de la Bandera y Ayudante",
+      "lat": 39.675726,
+      "lng": -3.982308,
+      "address": "C/ San Ignacio, 1"
+    },
+    {
+      "time": "08:50",
+      "title": "Desayuno Bastón",
+      "lat": 39.675614,
+      "lng": -3.977083,
+      "address": "Pasaje Maestro Ceferino Ruiz, 9"
+    },
+    {
+      "time": "10:00",
+      "title": "Salida Oficial",
+      "lat": 39.672363,
+      "lng": -3.973696,
+      "address": "C/ San Pedro de la Mata, 8"
+    },
+    {
+      "time": "10:10",
+      "title": "Baile en la Ermita del Cristo",
+      "lat": 39.67693,
+      "lng": -3.97068,
+      "address": "Ermita del Cristo"
+    },
+    {
+      "time": "10:30",
+      "title": "Baile en la Ermita de la Virgen",
+      "lat": 39.67858,
+      "lng": -3.97097,
+      "address": "Ermita Virgen de los Remedios"
+    },
+    {
+      "time": "10:50",
+      "title": "Baile en la Plaza Majuelo",
+      "lat": 39.67801,
+      "lng": -3.97556,
+      "address": "Plaza Majuelo"
+    },
+    {
+      "time": "11:00",
+      "title": "Bastón",
+      "lat": 39.675614,
+      "lng": -3.977083,
+      "address": "Pasaje Maestro Ceferino Ruiz, 9"
+    },
+    {
+      "time": "12:45",
+      "title": "Subayudante",
+      "lat": 39.676883,
+      "lng": -3.988106,
+      "address": "C/ Caléndula, 34"
+    },
+    {
+      "time": "14:35",
+      "title": "Descanso mediodia",
+      "lat": 39.672289,
+      "lng": -3.973722,
+      "address": "C/ San Pedro de la Mata, 8"
+    },
+    {
+      "time": "17:15",
+      "title": "Salida Oficial",
+      "lat": 39.672324,
+      "lng": -3.973564,
+      "address": "C/ San Pedro de la Mata, 8"
+    },
+    {
+      "time": "17:30",
+      "title": "1ª Dama",
+      "lat": 39.679221,
+      "lng": -3.981766,
+      "address": "C/ Nazaret, 4"
+    },
+    {
+      "time": "19:10",
+      "title": "2ª del Junco",
+      "lat": 39.678156,
+      "lng": -3.981871,
+      "address": "C/ Santa Rosa de Lima, 9"
+    },
+    {
+      "time": "20:45",
+      "title": "Labradora",
+      "lat": 39.676690,
+      "lng": -3.982214,
+      "address": "C/ San Miguel, 14"
+    },
+    {
+      "time": "22:30",
+      "title": "Regreso",
+      "lat": 39.672289,
+      "lng": -3.973722,
+      "address": "C/ San Pedro de la Mata, 8"
+    }
+  ],
+  "2025-08-31": [
+    {
+      "time": "06:30",
+      "title": "Recogida 1ª, 2ª, 3ª y 4ª de la Virgen",
+      "lat": 39.675162,
+      "lng": -3.972234,
+      "address": "C/ Don César Pérez, 16"
+    },
+    {
+      "time": "06:45",
+      "title": "Recogida Bastón",
+      "lat": 39.675540,
+      "lng": -3.977029,
+      "address": "Pasaje Maestro Ceferino Ruiz, 9"
+    },
+    {
+      "time": "06:50",
+      "title": "Recogida Junco",
+      "lat": 39.678187,
+      "lng": -3.976823,
+      "address": "C/ Ramón y Cajal, 60"
+    },
+    {
+      "time": "07:00",
+      "title": "Recogida Niño de la Bandera y Ayudante",
+      "lat": 39.675726,
+      "lng": -3.982308,
+      "address": "C/ San Ignacio, 1"
+    },
+    {
+      "time": "07:10",
+      "title": "Desayuno Bastón",
+      "lat": 39.675614,
+      "lng": -3.977083,
+      "address": "Pasaje Maestro Ceferino Ruiz, 9"
+    },
+    {
+      "time": "08:30",
+      "title": "Salida Oficial",
+      "lat": 39.672324,
+      "lng": -3.973564,
+      "address": "C/ San Pedro de la Mata, 8"
+    },
+    {
+      "time": "08:40",
+      "title": "Baile en la Ermita del Cristo",
+      "lat": 39.67693,
+      "lng": -3.97068,
+      "address": "Ermita del Cristo"
+    },
+    {
+      "time": "09:00",
+      "title": "Baile en la Ermita de la Virgen",
+      "lat": 39.67858,
+      "lng": -3.97097,
+      "address": "Ermita Virgen de los Remedios"
+    },
+    {
+      "time": "09:30",
+      "title": "Baile en la Plaza Majuelo",
+      "lat": 39.67801,
+      "lng": -3.97556,
+      "address": "Plaza Majuelo"
+    },
+    {
+      "time": "10:00",
+      "title": "Arriera",
+      "lat": 39.679809,
+      "lng": -3.984593,
+      "address": "C/ Viena, 23"
+    },
+    {
+      "time": "12:00",
+      "title": "Misa en la Iglesia Parroquial",
+      "lat": 39.67632,
+      "lng": -3.97357,
+      "address": "C/ Pedro de Heredia, 7"
+    },
+    {
+      "time": "13:20",
+      "title": "Niño de la Bandera",
+      "lat": 39.675676,
+      "lng": -3.982150,
+      "address": "C/ San Ignacio, 1"
+    },
+    {
+      "time": "15:15",
+      "title": "Descanso mediodía",
+      "lat": 39.672289,
+      "lng": -3.973722,
+      "address": "C/ San Pedro de la Mata, 8"
+    },
+    {
+      "time": "18:40",
+      "title": "Salida Oficial",
+      "lat": 39.672324,
+      "lng": -3.973564,
+      "address": "C/ San Pedro de la Mata, 8"
+    },
+    {
+      "time": "18:50",
+      "title": "Panadera",
+      "lat": 39.676242,
+      "lng": -3.971861,
+      "address": "C/ Mora, 7"
+    },
+    {
+      "time": "20:30",
+      "title": "Junco",
+      "lat": 39.678187,
+      "lng": -3.976823,
+      "address": "C/ Ramón y Cajal, 60"
+    },
+    {
+      "time": "22:10",
+      "title": "Regreso",
+      "lat": 39.672289,
+      "lng": -3.973722,
+      "address": "C/ San Pedro de la Mata, 8"
+    }
+  ],
+  "2025-09-06": [
+    {
+      "time": "07:15",
+      "title": "Recogida 1ª, 2ª, 3ª y 4ª de la Virgen",
+      "lat": 39.685927,
+      "lng": -3.975366,
+      "address": "Avda. Río Algodor, 15"
+    },
+    {
+      "time": "07:35",
+      "title": "Recogida Bastón",
+      "lat": 39.675614,
+      "lng": -3.977083,
+      "address": "Pasaje Maestro Ceferino Ruiz, 9"
+    },
+    {
+      "time": "07:45",
+      "title": "Recogida Junco",
+      "lat": 39.677978,
+      "lng": -3.976799,
+      "address": "C/ Ramón y Cajal, 60"
+    },
+    {
+      "time": "07:55",
+      "title": "Recogida Niño de la Bandera y Ayudante",
+      "lat": 39.675726,
+      "lng": -3.982308,
+      "address": "C/ San Ignacio, 1"
+    },
+    {
+      "time": "08:15",
+      "title": "Desayuno Junco",
+      "lat": 39.678187,
+      "lng": -3.976823,
+      "address": "C/ Ramón y Cajal, 60"
+    },
+    {
+      "time": "09:20",
+      "title": "Salida Oficial",
+      "lat": 39.672324,
+      "lng": -3.973564,
+      "address": "C/ San Pedro de la Mata, 8"
+    },
+    {
+      "time": "09:30",
+      "title": "Baile en la Ermita del Cristo",
+      "lat": 39.67693,
+      "lng": -3.97068,
+      "address": "Ermita del Cristo"
+    },
+    {
+      "time": "09:50",
+      "title": "Baile en la Ermita de la Virgen",
+      "lat": 39.67858,
+      "lng": -3.97097,
+      "address": "Ermita Virgen de los Remedios"
+    },
+    {
+      "time": "10:10",
+      "title": "Baile en la Plaza Majuelo",
+      "lat": 39.67801,
+      "lng": -3.97556,
+      "address": "Plaza Majuelo"
+    },
+    {
+      "time": "10:30",
+      "title": "2ª Dama",
+      "lat": 39.670950,
+      "lng": -3.973379,
+      "address": "C/ Mirasierra, 25"
+    },
+    {
+      "time": "12:10",
+      "title": "3ª de la Virgen",
+      "lat": 39.675193,
+      "lng": -3.972526,
+      "address": "C/ Orgaz, 17"
+    },
+    {
+      "time": "14:00",
+      "title": "Reina",
+      "lat": 39.679916,
+      "lng": -3.983882,
+      "address": "C/ Belgrado, 14"
+    },
+    {
+      "time": "15:50",
+      "title": "Regreso",
+      "lat": 39.672289,
+      "lng": -3.973722,
+      "address": "C/ San Pedro de la Mata, 8"
+    }
+  ],
+  "2025-09-07": [
+    {
+      "time": "17:20",
+      "title": "Salida Oficial",
+      "lat": 39.672324,
+      "lng": -3.973564,
+      "address": "C/ San Pedro de la Mata, 8"
+    },
+    {
+      "time": "17:35",
+      "title": "Recogida de Autoridades",
+      "lat": 39.67579,
+      "lng": -3.97511,
+      "address": "Ayuntamiento"
+    },
+    {
+      "time": "17:45",
+      "title": "Recogida de Patronato",
+      "lat": 39.67747,
+      "lng": -3.97244,
+      "address": "Casa Parroquial"
+    },
+    {
+      "time": "18:00",
+      "title": "Eucaristía con Vísperas",
+      "lat": 39.67853,
+      "lng": -3.97123,
+      "address": "Ermita Virgen de los Remedios"
+    },
+    {
+      "time": "19:30",
+      "title": "Alférez",
+      "lat": 39.672289,
+      "lng": -3.973722,
+      "address": "C/ San Pedro de la Mata, 8"
+    },
+    {
+      "time": "21:30",
+      "title": "Pregón",
+      "lat": 39.67790,
+      "lng": -3.96973,
+      "address": "Casa de la Cultura"
+    },
+    {
+      "time": "23:30",
+      "title": "Salve",
+      "lat": 39.67858,
+      "lng": -3.97094,
+      "address": "Ermita Virgen de los Remedios"
+    },
+    {
+      "time": "00:00",
+      "title": "Pólvora",
+      "lat": 39.68151,
+      "lng": -3.97019,
+      "address": "Paseo de las Moreras"
+    },
+    {
+      "time": "01:00",
+      "title": "Regreso",
+      "lat": 39.672450,
+      "lng": -3.973725,
+      "address": "C/ San Pedro de la Mata, 8"
+    }
+  ],
+  "2025-09-08": [
+    {
+      "time": "08:30",
+      "title": "Salida con Banda de Música",
+      "lat": 39.67659,
+      "lng": -3.97452,
+      "address": "C/ Toledo, 7"
+    },
+    {
+      "time": "08:45",
+      "title": "Desayuno y Baile Niño de la Bandera",
+      "lat": 39.675726,
+      "lng": -3.982308,
+      "address": "C/ San Ignacio, 1"
+    },
+    {
+      "time": "10:00",
+      "title": "Salida Oficial con Banda de Música",
+      "lat": 39.672289,
+      "lng": -3.973722,
+      "address": "C/ San Pedro de la Mata, 8"
+    },
+    {
+      "time": "10:10",
+      "title": "Recogida de Autoridades",
+      "lat": 39.67579,
+      "lng": -3.97511,
+      "address": "Ayuntamiento"
+    },
+    {
+      "time": "10:15",
+      "title": "Recogida de Patronato",
+      "lat": 39.67747,
+      "lng": -3.97244,
+      "address": "Casa Parroquial"
+    },
+    {
+      "time": "10:30",
+      "title": "Eucaristía",
+      "lat": 39.67853,
+      "lng": -3.97123,
+      "address": "Ermita Virgen de los Remedios"
+    },
+    {
+      "time": "11:40",
+      "title": "Recepción popular",
+      "lat": 39.67575,
+      "lng": -3.97518,
+      "address": "Paseo José López Ahijado"
+    },
+    {
+      "time": "12:30",
+      "title": "Ofrecimiento",
+      "lat": 39.67847,
+      "lng": -3.97133,
+      "address": "Ermita Virgen de los Remedios"
+    },
+    {
+      "time": "15:00",
+      "title": "Descanso mediodía",
+      "lat": 39.67847,
+      "lng": -3.97133,
+      "address": "Ermita Virgen de los Remedios"
+    },
+    {
+      "time": "20:30",
+      "title": "Rosario y Procesión",
+      "lat": 39.67858,
+      "lng": -3.97094,
+      "address": "C/ Rojas, C/ Toledo, C/ Los Remedios"
+    },
+    {
+      "time": "22:00",
+      "title": "Regreso",
+      "lat": 39.67858,
+      "lng": -3.97094,
+      "address": "Ermita Virgen de los Remedios"
+    }
+  ],
+  "2025-09-14": [
+    {
+      "time": "10:10",
+      "title": "Salida con Banda de Música",
+      "lat": 39.67658,
+      "lng": -3.97453,
+      "address": "C/ Toledo, 7"
+    },
+    {
+      "time": "10:20",
+      "title": "Desayuno Niño de la Bandera",
+      "lat": 39.675726,
+      "lng": -3.982308,
+      "address": "C/ San Ignacio, 1"
+    },
+    {
+      "time": "11:30",
+      "title": "Salida Oficial",
+      "lat": 39.672289,
+      "lng": -3.973722,
+      "address": "C/ San Pedro de la Mata, 8"
+    },
+    {
+      "time": "11:40",
+      "title": "Recogida de Autoridades",
+      "lat": 39.67579,
+      "lng": -3.97511,
+      "address": "Ayuntamiento"
+    },
+    {
+      "time": "11:45",
+      "title": "Recogida de Patronato",
+      "lat": 39.67747,
+      "lng": -3.97244,
+      "address": "Casa Parroquial"
+    },
+    {
+      "time": "12:00",
+      "title": "Eucaristía",
+      "lat": 39.67853,
+      "lng": -3.97123,
+      "address": "Ermita Virgen de los Remedios"
+    },
+    {
+      "time": "13:00",
+      "title": "Rifa del grano",
+      "lat": 39.67860,
+      "lng": -3.97082,
+      "address": "Ermita Virgen de los Remedios"
+    },
+    {
+      "time": "13:30",
+      "title": "Descanso mediodía",
+      "lat": 39.67860,
+      "lng": -3.97082,
+      "address": "Ermita Virgen de los Remedios"
+    },
+    {
+      "time": "19:30",
+      "title": "Novena y Procesión",
+      "lat": 39.67858,
+      "lng": -3.97094,
+      "address": "C/ Rojas, C/ Toledo, C/ Los Remedios"
+    },
+    {
+      "time": "22:30",
+      "title": "Rifa de la bandera",
+      "lat": 39.67847,
+      "lng": -3.97110,
+      "address": "Plaza de la Virgen"
+    },
+    {
+      "time": "23:30",
+      "title": "Bailes de bandera de antiguos Alféreces",
+      "lat": 39.67835,
+      "lng": -3.97114,
+      "address": "Plaza de la Virgen"
+    },
+    {
+      "time": "00:00",
+      "title": "Traca final de Feria",
+      "lat": 39.67858,
+      "lng": -3.97055,
+      "address": "Rotonda de la Feria"
+    },
+    {
+      "time": "00:15",
+      "title": "Nuevo Niño de la bandera",
+      "lat": 39.67853,
+      "lng": -3.97058,
+      "address": "Desconocido"
+    },
+    {
+      "time": "01:30",
+      "title": "Regreso",
+      "lat": 39.672289,
+      "lng": -3.973722,
+      "address": "C/ San Pedro de la Mata, 8"
+    }
+  ]
+}

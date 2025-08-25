@@ -27,7 +27,7 @@
     <div class="container-fluid">
         <a class="navbar-brand d-flex align-items-center mx-auto mx-lg-4 text-center text-lg-start" href="#">
             <img src="assets/images/virgen.svg" alt="Logo Virgen 2025-2026" height="70" class="mx-4">
-            <div>
+            <div class="text-center">
                 <span class="fw-bold d-block">Alabardas 2025</span>
                 <small class="text-muted">Sonseca (Toledo)</small>
             </div>
@@ -37,12 +37,12 @@
         </button>
         <div class="collapse navbar-collapse ms-lg-4" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+                <li class="nav-item me-3">
                     <a class="nav-link" href="recorrido" role="button">Mapa de itinerarios</a>
                 </li>
-                <!--<li class="nav-item">
+                <li class="nav-item me-3">
                     <a class="nav-link" href="programa" role="button">Programa</a>
-                </li>-->
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Años anteriores
@@ -75,131 +75,136 @@
 </div>
 -->
 
+<div class="container my-4">
+    <div class="row" id="cards-container"></div>
+</div>
+
 <h2>Estadísticas</h2>
-<div style="overflow-x: auto;">
-    <table class="tg">
-        <thead>
+<div class="table-responsive">
+    <table class="table align-middle mx-auto" style="width: auto;">
+        <thead class="table-light">
         <tr>
-            <th class="tg-0"></th>
-            <th class="tg-0"></th>
-            <th class="tg-h1">Kilómetros</th>
-            <th class="tg-h1">Bailes de bandera</th>
-            <th class="tg-h1">Convites</th>
-            <th class="tg-h1">Horario estimado</th>
-            <th class="tg-h1">Tiempo estimado</th>
-            <th class="tg-h1">Horario real</th>
+            <th class="border-0 bg-transparent"></th>
+            <th class="border-0 bg-transparent"></th>
+            <th class="border-top">Kilómetros</th>
+            <th class="border-top">Bailes de bandera</th>
+            <th class="border-top d-none d-md-table-cell">Convites</th>
+            <th class="border-top">Horario estimado</th>
+            <th class="border-top d-none d-md-table-cell">Tiempo estimado</th>
+            <th class="border-top d-none d-md-table-cell">Horario real</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td class="tg-h1" rowspan="2">Jueves 28 de agosto (San Agustín)</td>
-            <td class="tg-h1">Mañana</td>
-            <td class="tg-p">6.1 km</td>
-            <td class="tg-p">9</td>
-            <td class="tg-p">2</td>
-            <td class="tg-p">06:30 - 15:30</td>
-            <td class="tg-p">9h</td>
-            <td class="tg-p"><i>Pendiente</i></td>
+            <td class="colored" rowspan="2">Jueves 28 de agosto (San Agustín)</td>
+            <td class="colored">Mañana</td>
+            <td>6.1 km</td>
+            <td>9</td>
+            <td class="d-none d-md-table-cell">2</td>
+            <td>06:30 &ndash; 15:30</td>
+            <td class="d-none d-md-table-cell">9h</td>
+            <td class="d-none d-md-table-cell"><i>Pendiente</i></td>
         </tr>
         <tr>
-            <td class="tg-h1">Tarde</td>
-            <td class="tg-p">7.7 km</td>
-            <td class="tg-p">7</td>
-            <td class="tg-p">1</td>
-            <td class="tg-p">17:30 - 22:45</td>
-            <td class="tg-p">5h 15min</td>
-            <td class="tg-p"><i>Pendiente</i></td>
+            <td class="colored">Tarde</td>
+            <td>7.7 km</td>
+            <td>7</td>
+            <td class="d-none d-md-table-cell">1</td>
+            <td>17:30 &ndash; 22:45</td>
+            <td class="d-none d-md-table-cell">5h 15min</td>
+            <td class="d-none d-md-table-cell"><i>Pendiente</i></td>
         </tr>
         <tr>
-            <td class="tg-h1" rowspan="2">Sábado 30 de agosto</td>
-            <td class="tg-h1">Mañana</td>
-            <td class="tg-p">4.6 km</td>
-            <td class="tg-p">5</td>
-            <td class="tg-p">2</td>
-            <td class="tg-p">08:00 - 14:35</td>
-            <td class="tg-p">6h 35min</td>
-            <td class="tg-p"><i>Pendiente</i></td>
+            <td class="colored" rowspan="2">Sábado 30 de agosto</td>
+            <td class="colored">Mañana</td>
+            <td>4.6 km</td>
+            <td>5</td>
+            <td class="d-none d-md-table-cell">2</td>
+            <td>08:00 &ndash; 14:35</td>
+            <td class="d-none d-md-table-cell">6h 35min</td>
+            <td class="d-none d-md-table-cell"><i>Pendiente</i></td>
         </tr>
         <tr>
-            <td class="tg-h1">Tarde</td>
-            <td class="tg-p">3 km</td>
-            <td class="tg-p">3</td>
-            <td class="tg-p">3</td>
-            <td class="tg-p">17:15 - 22:30</td>
-            <td class="tg-p">5h 15min</td>
-            <td class="tg-p"><i>Pendiente</i></td>
+            <td class="colored">Tarde</td>
+            <td>3 km</td>
+            <td>3</td>
+            <td class="d-none d-md-table-cell">3</td>
+            <td>17:15 &ndash; 22:30</td>
+            <td class="d-none d-md-table-cell">5h 15min</td>
+            <td class="d-none d-md-table-cell"><i>Pendiente</i></td>
         </tr>
         <tr>
-            <td class="tg-h1" rowspan="2">Domingo 31 de agosto</td>
-            <td class="tg-h1">Mañana</td>
-            <td class="tg-p">5.7 km</td>
-            <td class="tg-p">6</td>
-            <td class="tg-p">2</td>
-            <td class="tg-p">06:30 - 15:15</td>
-            <td class="tg-p">8h 45min</td>
-            <td class="tg-p"><i>Pendiente</i></td>
+            <td class="colored" rowspan="2">Domingo 31 de agosto</td>
+            <td class="colored">Mañana</td>
+            <td>5.7 km</td>
+            <td>6</td>
+            <td class="d-none d-md-table-cell">2</td>
+            <td>06:30 &ndash; 15:15</td>
+            <td class="d-none d-md-table-cell">8h 45min</td>
+            <td class="d-none d-md-table-cell"><i>Pendiente</i></td>
         </tr>
         <tr>
-            <td class="tg-h1">Tarde</td>
-            <td class="tg-p">2.5 km</td>
-            <td class="tg-p">2</td>
-            <td class="tg-p">2</td>
-            <td class="tg-p">18:40 - 22:10</td>
-            <td class="tg-p">3h 30min</td>
-            <td class="tg-p"><i>Pendiente</i></td>
+            <td class="colored">Tarde</td>
+            <td>2.5 km</td>
+            <td>2</td>
+            <td class="d-none d-md-table-cell">2</td>
+            <td>18:40 &ndash; 22:10</td>
+            <td class="d-none d-md-table-cell">3h 30min</td>
+            <td class="d-none d-md-table-cell"><i>Pendiente</i></td>
         </tr>
         <tr>
-            <td class="tg-h1">Sábado 6 de septiembre</td>
-            <td class="tg-h1">Mañana</td>
-            <td class="tg-p">6 km</td>
-            <td class="tg-p">6</td>
-            <td class="tg-p">3</td>
-            <td class="tg-p">07:15 - 15:50</td>
-            <td class="tg-p">8h 35min</td>
-            <td class="tg-p"><i>Pendiente</i></td>
+            <td class="colored">Sábado 6 de septiembre</td>
+            <td class="colored">Mañana</td>
+            <td>6 km</td>
+            <td>6</td>
+            <td class="d-none d-md-table-cell">3</td>
+            <td>07:15 &ndash; 15:50</td>
+            <td class="d-none d-md-table-cell">8h 35min</td>
+            <td class="d-none d-md-table-cell"><i>Pendiente</i></td>
         </tr>
         <tr>
-            <td class="tg-h1">Domingo 7 de septiembre</td>
-            <td class="tg-h1">Tarde</td>
-            <td class="tg-p"> -- km</td>
-            <td class="tg-p">2</td>
-            <td class="tg-p">1</td>
-            <td class="tg-p">17:20 - 01:00</td>
-            <td class="tg-p">7h 40min</td>
-            <td class="tg-p"><i>Pendiente</i></td>
+            <td class="colored">Domingo 7 de septiembre</td>
+            <td class="colored">Tarde</td>
+            <td>5.3 km</td>
+            <td>2</td>
+            <td class="d-none d-md-table-cell">1</td>
+            <td>17:20 &ndash; 01:00</td>
+            <td class="d-none d-md-table-cell">7h 40min</td>
+            <td class="d-none d-md-table-cell"><i>Pendiente</i></td>
         </tr>
         <tr>
-            <td class="tg-h1">Lunes 8 de septiembre</td>
-            <td class="tg-h1">Mañana</td>
-            <td class="tg-p"> -- km</td>
-            <td class="tg-p">1</td>
-            <td class="tg-p">1</td>
-            <td class="tg-p">08:30 - 15:30</td>
-            <td class="tg-p">7h</td>
-            <td class="tg-p"><i>Pendiente</i></td>
+            <td class="colored">Lunes 8 de septiembre</td>
+            <td class="colored">Mañana</td>
+            <td>4.2 km</td>
+            <td>1</td>
+            <td class="d-none d-md-table-cell">1</td>
+            <td>08:30 &ndash; 15:30</td>
+            <td class="d-none d-md-table-cell">7h</td>
+            <td class="d-none d-md-table-cell"><i>Pendiente</i></td>
         </tr>
         <tr>
-            <td class="tg-h1" rowspan="2">Domingo 14 de septiembre</td>
-            <td class="tg-h1">Mañana</td>
-            <td class="tg-p"> -- km</td>
-            <td class="tg-p">0</td>
-            <td class="tg-p">0</td>
-            <td class="tg-p">10:10 - 13:30</td>
-            <td class="tg-p">3h 20min</td>
-            <td class="tg-p"><i>Pendiente</i></td>
+            <td class="colored" rowspan="2">Domingo 14 de septiembre</td>
+            <td class="colored">Mañana</td>
+            <td>3 km</td>
+            <td>0</td>
+            <td class="d-none d-md-table-cell">0</td>
+            <td>10:10 &ndash; 13:30</td>
+            <td class="d-none d-md-table-cell">3h 20min</td>
+            <td class="d-none d-md-table-cell"><i>Pendiente</i></td>
         </tr>
         <tr>
-            <td class="tg-h1">Tarde</td>
-            <td class="tg-p"> -- km</td>
-            <td class="tg-p">1</td>
-            <td class="tg-p">1</td>
-            <td class="tg-p">19:30 - 01:30</td>
-            <td class="tg-p">6h</td>
-            <td class="tg-p"><i>Pendiente</i></td>
+            <td class="colored">Tarde</td>
+            <td>1.1 km</td>
+            <td>1</td>
+            <td class="d-none d-md-table-cell">1</td>
+            <td>19:30 &ndash; 01:30</td>
+            <td class="d-none d-md-table-cell">6h</td>
+            <td class="d-none d-md-table-cell"><i>Pendiente</i></td>
         </tr>
         </tbody>
     </table>
 </div>
+
 <div id="fireworks">
     <div class="firework"></div>
     <div class="firework"></div>
@@ -215,6 +220,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <script src="assets/js/countdown.js"></script>
+<script src="assets/js/event_cards.js"></script>
 </body>
 
 </html>
