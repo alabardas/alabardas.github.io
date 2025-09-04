@@ -107,7 +107,7 @@ const points7 = [
 
 const points8 = [
     [39.67659, -3.97452, "08:30 - Salida con Banda de Música"],  // C/ Toledo, 7
-    [39.675726, -3.982308, "08:45 - Desayuno y Baile Niño de la Bandera"],  // C/ S. Ignacio, 1
+    [39.675726, -3.982308, "08:45 - Desayuno Niño de la Bandera"],  // C/ S. Ignacio, 1
     [39.672289, -3.973722, "10:00 - Salida Oficial con Banda de Música"], // C/ S. Pedro de la Mata, 8
     [39.67579, -3.97511, "10:10 - Recogida de Autoridades"],
     [39.67747, -3.97244, "10:15 - Recogida de Patronato"],
