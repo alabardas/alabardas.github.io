@@ -133,7 +133,7 @@ const pointsOctT = [
     [39.67847, -3.97110, "22:30 - Rifa de la bandera"],
     [39.67835, -3.97114, "23:30 - Bailes de bandera de antiguos Alféreces"],
     [39.67858, -3.97055, "00:00 - Traca final de Feria"],
-    [39.67853, -3.97058, "00:15 - Nuevo Niño de la bandera"],
+    [39.672125, -3.974007, "00:15 - Nuevo Niño de la bandera"],
     [39.672289, -3.973722, "01:30 - Regreso"],  // C/ S. Pedro de la Mata, 8
 ];
 
